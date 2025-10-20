@@ -28,6 +28,12 @@ const Accommodations = () => {
       features: ["Cocineta equipada", "Baño privado", "Área de trabajo", "Wi-Fi de alta velocidad"]
     },
     {
+      title: "Estudio Estandar",
+      description: "Relájate en un ambiente de elegancia y serenidad en nuestro Estudio Estándar. Este espacio cuenta con baño privado y cocina completamente equipada con nevera, microondas y cafetera, ideal para disfrutar de una estancia cómoda y revitalizante. Su amplio ventanal hacia el interior del edificio permite que la luz natural inunde el ambiente, creando una sensación de paz y armonía. Además, dispone de Wi-Fi de alta velocidad para que te mantengas siempre conectado mientras disfrutas del bienestar y la calma de La Candelaria.",
+      image: '/images/estudio-estandar/1.webp',
+      features: ["Cocineta equipada", "Baño privado", "Área de trabajo", "Wi-Fi de alta velocidad"]
+    },
+    {
       title: "Estudio Triple Estandar",
       description: "Comodidad, elegancia y amplitud se unen en nuestro Estudio Triple Estándar, ideal para compartir momentos de descanso y bienestar. Cuenta con dos camas, baño privado y cocina totalmente equipada con nevera, microondas y cafetera. Su amplio ventanal hacia el interior del edificio llena el espacio de luz natural, creando un ambiente cálido y tranquilo. Perfecto para tres personas que buscan confort, conexión y serenidad, con Wi-Fi de alta velocidad incluido.",
       image: '/images/estudio-triple-estandar/1.webp',

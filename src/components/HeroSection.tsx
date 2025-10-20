@@ -24,7 +24,7 @@ const HeroSection = () => {
         </p>
         
         <a 
-          href="https://wa.me/573112161923" 
+          href="https://engine.lobbypms.com/las-aguas-inner-experience" 
           target="_blank" 
           rel="noopener noreferrer"
           className="bg-brand-gold text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-brand-gold-dark transition-all duration-300 transform hover:scale-105 shadow-lg inline-block"

@@ -22,7 +22,7 @@ const Navigation = () => {
               <a href="#wellness" className="text-warm-brown hover:text-brand-gold transition-colors duration-200">Wellness</a>
               <a href="#testimonios" className="text-warm-brown hover:text-brand-gold transition-colors duration-200">Testimonios</a>
               <a 
-                href="https://wa.me/573112161923" 
+                href="https://engine.lobbypms.com/las-aguas-inner-experience" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="bg-brand-gold text-white px-6 py-2 rounded-full hover:bg-brand-gold-dark transition-all duration-200 transform hover:scale-105 inline-block"
@@ -51,7 +51,7 @@ const Navigation = () => {
             <a href="#wellness" className="block px-3 py-2 text-warm-brown hover:text-brand-gold">Wellness</a>
             <a href="#testimonios" className="block px-3 py-2 text-warm-brown hover:text-brand-gold">Testimonios</a>
             <a 
-              href="https://wa.me/573112161923" 
+              href="https://engine.lobbypms.com/las-aguas-inner-experience" 
               target="_blank" 
               rel="noopener noreferrer"
               className="w-full mt-2 bg-brand-gold text-white px-6 py-2 rounded-full inline-block text-center"

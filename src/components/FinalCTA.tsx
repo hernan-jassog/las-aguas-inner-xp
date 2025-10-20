@@ -14,7 +14,7 @@ const FinalCTA = () => {
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
           <a 
-            href="https://wa.me/573112161923" 
+            href="https://engine.lobbypms.com/las-aguas-inner-experience" 
             target="_blank" 
             rel="noopener noreferrer"
             className="bg-white text-brand-purple px-8 py-4 rounded-full font-semibold hover:bg-gray-100 transition-colors duration-300 transform hover:scale-105 inline-block text-center"

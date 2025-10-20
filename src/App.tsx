@@ -63,15 +63,10 @@ function App() {
       ]
     },
     'estudio-estandar': {
-      title: 'Estudio Balcon',
+      title: 'Estudio Estandar',
       images: [
-        '/images/estudio-estandar/1.webp',
-        '/images/estudio-estandar/2.webp',
-        '/images/estudio-estandar/3.webp',
-        '/images/estudio-estandar/4.webp',
-        '/images/estudio-estandar/5.webp',
-        '/images/estudio-estandar/6.webp',
-        '/images/estudio-estandar/7.webp'
+        '/images/estudio-estandar/1.jpg',
+        '/images/estudio-estandar/2.jpg'
       ]
     },
     'estudio-triple-estandar': {

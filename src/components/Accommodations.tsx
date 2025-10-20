@@ -30,7 +30,7 @@ const Accommodations = () => {
     {
       title: "Estudio Estandar",
       description: "Relájate en un ambiente de elegancia y serenidad en nuestro Estudio Estándar. Este espacio cuenta con baño privado y cocina completamente equipada con nevera, microondas y cafetera, ideal para disfrutar de una estancia cómoda y revitalizante. Su amplio ventanal hacia el interior del edificio permite que la luz natural inunde el ambiente, creando una sensación de paz y armonía. Además, dispone de Wi-Fi de alta velocidad para que te mantengas siempre conectado mientras disfrutas del bienestar y la calma de La Candelaria.",
-      image: '/images/estudio-estandar/1.webp',
+      image: '/images/estudio-estandar/1.jpg',
       features: ["Cocineta equipada", "Baño privado", "Área de trabajo", "Wi-Fi de alta velocidad"]
     },
     {

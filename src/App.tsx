@@ -18,15 +18,15 @@ function App() {
   });
 
   const galleryImages = {
-    'estudio-terraza': {
-      title: 'Estudio Terraza',
+    'estudio-patio-privado': {
+      title: 'Estudio Patio Privado',
       images: [
-        '/images/estudio-terraza/1.webp',
-        '/images/estudio-terraza/2.webp',
-        '/images/estudio-terraza/3.webp',
-        '/images/estudio-terraza/4.webp',
-        '/images/estudio-terraza/5.webp',
-        '/images/estudio-terraza/6.webp'
+        '/images/estudio-patio-privado/1.webp',
+        '/images/estudio-patio-privado/2.webp',
+        '/images/estudio-patio-privado/3.webp',
+        '/images/estudio-patio-privado/4.webp',
+        '/images/estudio-patio-privado/5.webp',
+        '/images/estudio-patio-privado/6.webp'
       ]
     },'estudio-doble-deluxe': {
       title: 'Estudio Doble Deluxe',

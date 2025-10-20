@@ -4,56 +4,56 @@ import { ArrowRight, MapPin, Coffee, Camera } from 'lucide-react';
 const Accommodations = () => {
   const accommodations = [
     {
-      title: "Estudio Terraza",
-      description: "Guests will have a special experience as the studio features a sauna. Guests will find a stovetop, a refrigerator, kitchenware and an oven in the well-fitted kitchen. The studio also offers a barbecue. The studio provides a washing machine, a coffee machine, a terrace with city views as well as a private bathroom featuring a shower. The unit offers 1 bed.",
-      image: '/images/estudio-terraza/1.webp',
+      title: "Estudio Patio Privado",
+      description: "Un refugio de elegancia y serenidad en el corazón de La Candelaria. Este estudio, ubicado en el primer piso, ofrece baño privado y cocina equipada con nevera, microondas y cafetera. Su hermoso patio interior, de uso exclusivo para los huéspedes del estudio, brinda un espacio ideal para relajarse y disfrutar del aire libre en total privacidad. Perfecto para quienes buscan calma, confort y conexión en un ambiente íntimo con Wi-Fi de alta velocidad.",
+      image: '/images/estudio-patio-privado/1.webp',
       features: ["Cocineta equipada", "Baño privado", "Área de trabajo", "Wi-Fi de alta velocidad"]
     },
     {
       title: "Estudio Doble Deluxe",
-      description: "Guests will have a special experience as the studio features a sauna. Guests will find a stovetop, a refrigerator, kitchenware and an oven in the kitchen. The studio also offers a barbecue. The studio provides a washing machine, a coffee machine, a terrace with garden views as well as a private bathroom featuring a shower. The unit offers 1 bed.",
+      description: "Descubre el equilibrio perfecto entre elegancia y bienestar en nuestro Estudio Doble Deluxe. Este espacio ha sido diseñado para ofrecer una experiencia única de descanso y armonía. Cuenta con baño privado y cocina totalmente equipada con nevera, microondas, cafetera y todo lo necesario para tu comodidad. Su balcón con vista a la montaña te invita a respirar tranquilidad y conectar con la energía de La Candelaria. Además, dispone de Wi-Fi de alta velocidad para mantenerte siempre conectado en un entorno de serenidad y confort.",
       image: '/images/estudio-doble-deluxe/1.webp',
       features: ["Cocineta equipada", "Baño privado", "Área de trabajo", "Wi-Fi de alta velocidad"]
     },
     {
       title: "Estudio Superior",
-      description: "Guests will have a special experience as this studio features a sauna. Guests will find a stovetop, a refrigerator, kitchenware and an oven in the fully equipped kitchen. The studio also has a barbecue. The studio offers a washing machine, a coffee machine, a terrace with mountain views as well as a private bathroom featuring a shower. The unit offers 1 bed.",
+      description: "Sumérgete en una experiencia de descanso y bienestar en nuestro Estudio Superior, un espacio donde la elegancia se combina con la tranquilidad. Su imponente ventanal, que abarca toda la pared posterior, llena el ambiente de luz natural y crea una atmósfera cálida y relajante. Cuenta con baño privado y cocina totalmente equipada con nevera, microondas y cafetera, ideal para estancias largas o escapadas de confort. Además, dispone de Wi-Fi de alta velocidad para mantenerte conectado mientras disfrutas de un entorno de serenidad y estilo.",
       image: '/images/estudio-superior/1.webp',
       features: ["Cocineta equipada", "Baño privado", "Área de trabajo", "Wi-Fi de alta velocidad"]
     },
     {
       title: "Estudio Balcon",
-      description: "This studio features a sauna. Guests will find a stovetop, a refrigerator, kitchenware and an oven in the kitchen. The studio also provides guests with a barbecue. The studio provides a washing machine, a coffee machine, a terrace with city views as well as a private bathroom featuring a shower. The unit offers 1 bed.",
+      description: "Disfruta de un refugio de calma y bienestar en nuestro Estudio Interior con Balcón. Este elegante espacio cuenta con baño privado y cocina equipada con nevera, microondas y cafetera, pensada para tu total comodidad. Su balcón, orientado hacia el interior del edificio, brinda un ambiente íntimo y silencioso, ideal para relajarte, disfrutar de una lectura o simplemente respirar tranquilidad. Además, el Wi-Fi de alta velocidad complementa una experiencia donde la serenidad, el confort y la elegancia se encuentran en perfecta armonía.",
       image: '/images/estudio-balcon/1.webp',
       features: ["Cocineta equipada", "Baño privado", "Área de trabajo", "Wi-Fi de alta velocidad"]
     },
     {
       title: "Estudio Triple Estandar",
-      description: "This studio's standout feature is the sauna. Guests will find a stovetop, a refrigerator, kitchenware and an oven in the well-equipped kitchen. The studio also features a barbecue. The studio offers a washing machine, a coffee machine, a terrace with city views as well as a private bathroom boasting a shower. The unit has 2 beds.",
+      description: "Comodidad, elegancia y amplitud se unen en nuestro Estudio Triple Estándar, ideal para compartir momentos de descanso y bienestar. Cuenta con dos camas, baño privado y cocina totalmente equipada con nevera, microondas y cafetera. Su amplio ventanal hacia el interior del edificio llena el espacio de luz natural, creando un ambiente cálido y tranquilo. Perfecto para tres personas que buscan confort, conexión y serenidad, con Wi-Fi de alta velocidad incluido.",
       image: '/images/estudio-triple-estandar/1.webp',
       features: ["Cocineta equipada", "Baño privado", "Área de trabajo", "Wi-Fi de alta velocidad"]
     },
     {
       title: "Estudio Basico",
-      description: "Guests will have a special experience as this studio features a sauna. Guests will find a stovetop, a refrigerator, kitchenware and an oven in the fully equipped kitchen. The studio also has a barbecue. The studio offers a washing machine, a coffee machine, a terrace with city views as well as a private bathroom featuring a shower. The unit offers 1 bed.",
+      description: "Sencillez, confort y bienestar se unen en nuestro Estudio Básico, ubicado en el primer piso del edificio. Este espacio cuenta con baño privado y cocina totalmente equipada con nevera, microondas y cafetera, ideal para quienes buscan una estadía práctica sin perder la esencia del descanso. Su ventana al frente del edificio permite disfrutar de la luz natural y del ambiente vibrante de La Candelaria. Además, dispone de Wi-Fi de alta velocidad, creando un equilibrio perfecto entre comodidad, elegancia y serenidad.",
       image: '/images/estudio-basico/1.webp',
       features: ["Cocineta equipada", "Baño privado", "Área de trabajo", "Wi-Fi de alta velocidad"]
     },
     {
       title: "Habitacion Compartida Mixta 6 Camas",
-      description: "Guests will have a special experience as this dormitory room provides a sauna. Guests will find a stovetop, a refrigerator, kitchenware and an oven in the well-equipped kitchen. The dormitory room also has a barbecue. The dormitory room offers a washing machine, a coffee machine, a terrace with garden views as well as a private bathroom featuring a shower. The unit offers 6 beds.",
+      description: "Una opción cómoda y funcional para viajeros que buscan bienestar y conexión. Esta habitación compartida cuenta con seis camas y un balcón al frente del edificio, donde podrás disfrutar de la vista y del ambiente auténtico de La Candelaria. Cada cama se renta de forma individual e incluye acceso a baño y cocina compartida completamente equipada, además de Wi-Fi de alta velocidad. Un espacio ideal para descansar, socializar y vivir una experiencia tranquila en el centro histórico de Bogotá.",
       image: '/images/habitacion-compartida-mixta-6-camas/1.webp',
       features: ["Cocineta equipada", "Baño privado", "Área de trabajo", "Wi-Fi de alta velocidad"]
     },
     {
       title: "Habitacion Compartida Mixta 4 Camas",
-      description: "Guests will have a special experience as the dormitory room features a sauna. Guests will find a stovetop, a refrigerator, kitchenware and an oven in the fully equipped kitchen. The dormitory room also offers a barbecue. The dormitory room provides a washing machine, a coffee machine, a terrace with garden views as well as a private bathroom featuring a shower. The unit offers 4 beds.",
+      description: "Un espacio acogedor y elegante pensado para viajeros que valoran la tranquilidad y el bienestar. Esta habitación compartida cuenta con cuatro camas y se renta de forma individual. Dispone de baño y cocina compartidos completamente equipados, además de Wi-Fi de alta velocidad. Su ventana hacia la parte posterior del edificio ofrece una hermosa vista a la ciudad, creando un ambiente sereno y luminoso ideal para descansar, conectar y disfrutar de la experiencia en La Candelaria.",
       image: "/images/habitacion-compartida-mixta-4-camas/1.webp",
       features: ["Cama queen", "Baño privado", "Escritorio", "Acceso completo"]
     },
     {
       title: "Habitacion Compartida Femenina 4 Camas",
-      description: "This dormitory room features a sauna. Guests will find a stovetop, a refrigerator, kitchenware and an oven in the fully equipped kitchen. The dormitory room also provides guests with a barbecue. The dormitory room provides a washing machine, a coffee machine, a terrace with city views as well as a private bathroom featuring a shower. The unit offers 4 beds.",
+      description: "Un espacio diseñado especialmente para mujeres que buscan confort, seguridad y tranquilidad durante su estadía. Esta habitación cuenta con un ambiente acogedor y elegante, con balcón hacia la parte interior del edificio y acceso directo a la terraza, ideal para disfrutar de la vista y del aire fresco. Cada cama se renta de forma individual e incluye acceso a baño y cocina compartidos completamente equipados, además de Wi-Fi de alta velocidad. Un lugar perfecto para descansar, sentirse segura y vivir la experiencia de La Candelaria con estilo.",
       image: "/images/habitacion-compartida-femenina-4-camas/1.webp",
       features: ["Literas cómodas", "Lockers seguros", "Baños compartidos", "Comunidad vibrante"]
     }

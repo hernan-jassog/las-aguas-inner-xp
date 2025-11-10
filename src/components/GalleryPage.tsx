@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next'; // 1. Importar
 import { ArrowLeft, X } from 'lucide-react';
 
 interface GalleryPageProps {
@@ -9,6 +10,9 @@ interface GalleryPageProps {
 
 const GalleryPage: React.FC<GalleryPageProps> = ({ title, images, onBack }) => {
   const [selectedImage, setSelectedImage] = React.useState<string | null>(null);
+  
+  // 2. Usar el hook
+  const { t } = useTranslation();
 
   return (
     <div className="min-h-screen bg-warm-white">
@@ -21,8 +25,9 @@ const GalleryPage: React.FC<GalleryPageProps> = ({ title, images, onBack }) => {
               className="flex items-center text-warm-brown hover:text-brand-gold transition-colors duration-200 mr-4"
             >
               <ArrowLeft className="w-5 h-5 mr-2" />
-              Volver
+              {t('gallery.back')} {/* 3. Texto traducido */}
             </button>
+            {/* El título 'title' se recibe como prop, ya debería venir traducido */}
             <h1 className="text-2xl font-bold text-warm-brown">{title}</h1>
           </div>
         </div>
@@ -39,6 +44,7 @@ const GalleryPage: React.FC<GalleryPageProps> = ({ title, images, onBack }) => {
             >
               <img
                 src={image}
+                // El 'alt' aquí usa el 'title' que ya viene como prop
                 alt={`${title} ${index + 1}`}
                 className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
               />
@@ -60,7 +66,7 @@ const GalleryPage: React.FC<GalleryPageProps> = ({ title, images, onBack }) => {
             </button>
             <img
               src={selectedImage}
-              alt="Imagen ampliada"
+              alt={t('gallery.enlargedImageAlt')}
               className="max-w-full max-h-full object-contain rounded-lg"
             />
           </div>

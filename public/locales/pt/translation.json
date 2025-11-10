@@ -1,0 +1,236 @@
+{
+  "nav": {
+    "titulo": "Las Aguas Inner Experience",
+    "inicio": "Início",
+    "espacios": "Espaços",
+    "wellness": "Bem-estar",
+    "testimonios": "Depoimentos",
+    "reservar_ahora": "Reservar Agora"
+  },
+  "hero": {
+    "titleLine1": "Sua Experiência Interior",
+    "titleLine2": "Começa Aqui",
+    "subtitle": "Descubra um refúgio no coração de Bogotá, projetado para conectar, explorar e renovar seu espírito."
+  },
+  "introduction": {
+    "title": "Mais que um lugar para ficar",
+    "subtitle": "Somos um centro para viajantes conscientes. Nossa marca é construída para fornecer uma \"Experiência Interior\" que conecta os hóspedes consigo mesmos, com os outros e com a alma de Bogotá.",
+    "cards": {
+      "self": {
+        "title": "Consigo Mesmo",
+        "description": "Espaços de meditação, bem-estar e reflexão pessoal para o seu crescimento interior."
+      },
+      "others": {
+        "title": "Com os Outros",
+        "description": "Comunidade vibrante de viajantes conscientes que compartilham experiências autênticas."
+      },
+      "city": {
+        "title": "Com Bogotá",
+        "description": "Imersão cultural autêntica no coração da capital colombiana."
+      }
+    }
+  },
+  "features": {
+    "kitchenette": "Minicozinha equipada",
+    "privateBath": "Banheiro privado",
+    "workspace": "Área de trabalho",
+    "wifi": "Wi-Fi de alta velocidade",
+    "queenBed": "Cama queen",
+    "desk": "Escrivaninha",
+    "fullAccess": "Acesso completo",
+    "bunks": "Beliches confortáveis",
+    "lockers": "Armários seguros",
+    "sharedBath": "Banheiros compartilhados",
+    "community": "Comunidade vibrante"
+  },
+  "accommodations": {
+    "title": "Nossos Espaços",
+    "subtitle": "Projetados para diferentes necessidades e orçamentos, todos com o mesmo compromisso de qualidade e experiência.",
+    "seeMore": "Ver mais",
+    "list": [
+      {
+        "slug": "estudio-patio-privado",
+        "title": "Estúdio Pátio Privado",
+        "description": "Um refúgio de elegância e serenidade no coração de La Candelaria. Este estúdio no primeiro andar oferece banheiro privativo e cozinha equipada. Seu belo pátio interno, de uso exclusivo, oferece um espaço ideal para relaxar e desfrutar do ar livre com total privacidade. Perfeito para quem busca calma e conforto com Wi-Fi de alta velocidade.",
+        "image": "/images/estudio-patio-privado/1.webp",
+        "features": ["kitchenette", "privateBath", "workspace", "wifi"]
+      },
+      {
+        "slug": "estudio-doble-deluxe",
+        "title": "Estúdio Duplo Deluxe",
+        "description": "Descubra o equilíbrio perfeito entre elegância e bem-estar. Este espaço foi projetado para uma experiência única de descanso. Possui banheiro privativo e cozinha totalmente equipada. Sua varanda com vista para a montanha convida a respirar tranquilidade e conectar-se com a energia de La Candelaria. Wi-Fi de alta velocidade incluído.",
+        "image": "/images/estudio-doble-deluxe/1.webp",
+        "features": ["kitchenette", "privateBath", "workspace", "wifi"]
+      },
+      {
+        "slug": "estudio-superior",
+        "title": "Estúdio Superior",
+        "description": "Mergulhe em uma experiência de descanso e bem-estar em nosso Estúdio Superior. Sua imponente janela, que ocupa toda a parede posterior, enche o ambiente de luz natural. Possui banheiro privativo e cozinha totalmente equipada, ideal para longas estadias. Wi-Fi de alta velocidade para se manter conectado.",
+        "image": "/images/estudio-superior/1.webp",
+        "features": ["kitchenette", "privateBath", "workspace", "wifi"]
+      },
+      {
+        "slug": "estudio-balcon",
+        "title": "Estúdio com Varanda",
+        "description": "Desfrute de um refúgio de calma e bem-estar. Este elegante espaço conta com banheiro privativo e cozinha equipada. Sua varanda, voltada para o interior do edifício, oferece um ambiente íntimo e silencioso, ideal para relaxar. O Wi-Fi de alta velocidade complementa uma experiência de serenidade e conforto.",
+        "image": "/images/estudio-balcon/1.webp",
+        "features": ["kitchenette", "privateBath", "workspace", "wifi"]
+      },
+      {
+        "slug": "estudio-estandar",
+        "title": "Estúdio Standard",
+        "description": "Relaxe em um ambiente de elegância e serenidade. Este espaço conta com banheiro privativo e cozinha completa. Sua ampla janela para o interior do edifício permite que a luz natural inunde o ambiente, criando uma sensação de paz. Wi-Fi de alta velocidade incluído.",
+        "image": "/images/estudio-estandar/1.jpg",
+        "features": ["kitchenette", "privateBath", "workspace", "wifi"]
+      },
+      {
+        "slug": "estudio-triple-estandar",
+        "title": "Estúdio Triplo Standard",
+        "description": "Conforto, elegância e amplitude se unem. Ideal para compartilhar momentos, conta com duas camas, banheiro privativo e cozinha equipada. Sua ampla janela para o interior enche o espaço de luz. Perfeito para três pessoas que buscam conforto, com Wi-Fi de alta velocidade.",
+        "image": "/images/estudio-triple-estandar/1.webp",
+        "features": ["kitchenette", "privateBath", "workspace", "wifi"]
+      },
+      {
+        "slug": "estudio-basico",
+        "title": "Estúdio Básico",
+        "description": "Simplicidade, conforto e bem-estar no primeiro andar. Conta com banheiro privativo e cozinha equipada. Sua janela frontal permite desfrutar da luz natural e do ambiente vibrante de La Candelaria. Wi-Fi de alta velocidade incluído.",
+        "image": "/images/estudio-basico/1.webp",
+        "features": ["kitchenette", "privateBath", "workspace", "wifi"]
+      },
+      {
+        "slug": "habitacion-compartida-mixta-6-camas",
+        "title": "Quarto Compartilhado Misto de 6 Camas",
+        "description": "Uma opção confortável para viajantes que buscam bem-estar e conexão. Este quarto possui seis camas e uma varanda frontal. Cada cama é alugada individualmente e inclui acesso a banheiro e cozinha compartilhados, além de Wi-Fi de alta velocidade. Ideal para descansar e socializar.",
+        "image": "/images/habitacion-compartida-mixta-6-camas/1.webp",
+        "features": ["kitchenette", "privateBath", "workspace", "wifi"]
+      },
+      {
+        "slug": "habitacion-compartida-mixta-4-camas",
+        "title": "Quarto Compartilhado Misto de 4 Camas",
+        "description": "Um espaço acolhedor e elegante. Este quarto possui quatro camas e é alugado individualmente. Dispõe de banheiro e cozinha compartilhados e Wi-Fi de alta velocidade. Sua janela posterior oferece uma bela vista da cidade, criando um ambiente sereno.",
+        "image": "/images/habitacion-compartida-mixta-4-camas/1.webp",
+        "features": ["queenBed", "privateBath", "desk", "fullAccess"]
+      },
+      {
+        "slug": "habitacion-compartida-femenina-4-camas",
+        "title": "Quarto Compartilhado Feminino de 4 Camas",
+        "description": "Um espaço projetado para mulheres que buscam conforto e segurança. Possui varanda interna e acesso direto ao terraço. Cada cama é alugada individualmente e inclui acesso a banheiro e cozinha compartilhados, além de Wi-Fi de alta velocidade. Perfeito para descansar e se sentir segura.",
+        "image": "/images/habitacion-compartida-femenina-4-camas/1.webp",
+        "features": ["bunks", "lockers", "sharedBath", "community"]
+      }
+    ]
+  },
+  "wellness": {
+    "title": "Conecte-se Consigo e com os Outros",
+    "subtitle": "Comodidades únicas que nutrem seu bem-estar físico, mental e social durante sua estadia.",
+    "meditation": {
+      "alt": "Sala de Meditação",
+      "title": "Sala de Meditação",
+      "description": "Um espaço sagrado para reflexão interior, equipado com elementos naturais e uma vista inspiradora de Monserrate. Aqui você pode se reconectar consigo mesmo e encontrar a paz que busca em sua jornada.",
+      "schedule": "Sessões de meditação em grupo: segunda, quarta e sexta",
+      "location": "8:00 am, Edifício Las Aguas Inner Experience"
+    }
+  },
+  "amenities": {
+    "gym": {
+      "title": "Academia Equipada",
+      "description": "Mantenha sua rotina de exercícios com equipamentos modernos e espaços amplos."
+    },
+    "sauna": {
+      "title": "Sauna Relaxante",
+      "description": "Desconecte-se e renove sua energia em nosso espaço de relaxamento."
+    },
+    "coffee": {
+      "title": "Cultura do 'Tinto'",
+      "description": "Nosso acolhedor café com os melhores grãos colombianos e ambiente local."
+    },
+    "common": {
+      "title": "Espaços Comuns",
+      "description": "Áreas projetadas para conectar, trabalhar e compartilhar com outros viajantes."
+    }
+  },
+  "testimonials": {
+    "title": "Experiências que Transformam",
+    "subtitle": "Descubra por que viajantes de todo o mundo escolhem Las Aguas para sua experiência interior.",
+    "list": [
+      {
+        "name": "Correcaminos",
+        "country": "Espanha",
+        "text": "Las Aguas foi nossa primeira parada na Colômbia, e não poderia ter havido escolha melhor. Viemos para descansar alguns dias e acabamos encontrando amigos e compartilhando ótimos momentos com os funcionários. O tour do Jeicob pelos bairros populares foi a melhor experiência. Sergio e os outros funcionários e hóspedes nos proporcionaram uma estadia maravilhosa que nunca esqueceremos.",
+        "rating": 5,
+        "image": "images/testimonials/1.jpg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop"
+      },
+      {
+        "name": "Juliana",
+        "country": "Colômbia",
+        "text": "O hostel é um ótimo lugar para ficar, muito bem localizado em La Candelaria, com fácil acesso a pé a vários pontos turísticos do centro. O que mais gostamos foi a gentileza da equipe, sempre atenta às nossas necessidades.",
+        "rating": 5,
+        "image": "images/testimonials/2.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop"
+      },
+      {
+        "name": "Hernán",
+        "country": "México",
+        "text": "Como nômade digital, encontrei o equilíbrio perfeito entre produtividade e bem-estar. O WiFi é excelente, a academia impecável e a comunidade inspiradora.",
+        "rating": 5,
+        "image": "images/testimonials/3.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop"
+      }
+    ]
+  },
+  "surroundings": {
+    "title": "Arredores",
+    "subtitle": "Localizados no coração do bairro Las Aguas, você terá acesso imediato ao melhor de Bogotá.",
+    "list": [
+      {
+        "title": "Centro Histórico",
+        "description": "A poucos passos dos principais locais históricos de Bogotá.",
+        "image": "/images/alrededores/centro-bogota.png",
+        "distance": "2 min a pé"
+      },
+      {
+        "title": "Monserrate",
+        "description": "Vista privilegiada do morro mais emblemático da cidade.",
+        "image": "/images/alrededores/monserrate-bogota.jpg",
+        "distance": "15 min de teleférico"
+      },
+      {
+        "title": "Mercado de Pulgas",
+        "description": "Encontre tesouros únicos no mercado de antiguidades mais famoso.",
+        "image": "/images/alrededores/mercado-bogota.jpg",
+        "distance": "5 min a pé"
+      },
+      {
+        "title": "Cafés Locais",
+        "description": "Descubra a cultura cafeeira nos melhores cafés do bairro.",
+        "image": "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
+        "distance": "1-3 min a pé"
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Sua jornada de transformação espera por você",
+    "subtitle": "Junte-se à nossa comunidade de viajantes conscientes e descubra tudo o que Bogotá e seu interior têm a oferecer.",
+    "button1": "Ver Disponibilidade",
+    "button2": "Entrar em Contato",
+    "location": "Localizados no coração do bairro Las Aguas, Bogotá"
+  },
+  "gallery": {
+    "back": "Voltar",
+    "enlargedImageAlt": "Imagem ampliada"
+  },
+  "footer": {
+    "description": "Mais que um lugar para ficar, somos uma experiência que conecta viajantes conscientes com o coração de Bogotá e sua própria transformação interior.",
+    "contact": {
+      "title": "Contato",
+      "addressLine1": "Edificio las Aguas, Calle 12f #0-19",
+      "addressLine2": "Bairro La Candelaria - Centro Histórico"
+    },
+    "links": {
+      "title": "Links Rápidos",
+      "tours": "Tours Locais"
+    },
+    "copyright": {
+      "madeWith": "Feito com <1/> para viajantes conscientes",
+      "reserved": "© 2025 Las Aguas Inner Experience. Todos os direitos reservados."
+    }
+  }
+}

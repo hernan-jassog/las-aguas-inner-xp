@@ -1,6 +1,10 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next'; // 1. Importar
 
 const HeroSection = () => {
+  // 2. Usar el hook
+  const { t } = useTranslation();
+
   return (
     <section id="inicio" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <div 
@@ -14,13 +18,14 @@ const HeroSection = () => {
       
       <div className="relative z-10 text-center text-white px-4 max-w-4xl mx-auto">
         <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-          Tu Experiencia Interior
+          {/* 3. Reemplazar texto estático */}
+          {t('hero.titleLine1')}
           <br />
-          <span className="text-brand-purple-light">Comienza Aquí</span>
+          <span className="text-brand-purple-light">{t('hero.titleLine2')}</span>
         </h1>
         
         <p className="text-xl md:text-2xl mb-8 text-gray-200 leading-relaxed">
-          Descubre un refugio en el corazón de Bogotá, diseñado para conectar, explorar y renovar tu espíritu.
+          {t('hero.subtitle')}
         </p>
         
         <a 
@@ -29,7 +34,8 @@ const HeroSection = () => {
           rel="noopener noreferrer"
           className="bg-brand-gold text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-brand-gold-dark transition-all duration-300 transform hover:scale-105 shadow-lg inline-block"
         >
-          Reservar Ahora
+          {/* 4. Reutilizar la traducción del nav */}
+          {t('nav.reservar_ahora')}
         </a>
       </div>
       

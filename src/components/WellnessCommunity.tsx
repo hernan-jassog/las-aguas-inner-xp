@@ -1,27 +1,32 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next'; // 1. Importar
 import { Dumbbell, Zap, Coffee, Users } from 'lucide-react';
 
 const WellnessCommunity = () => {
+  // 2. Usar el hook
+  const { t } = useTranslation(); 
+
+  // 3. Definir el array usando la función t()
   const amenities = [
     {
       icon: <Dumbbell className="w-8 h-8" />,
-      title: "Gimnasio Equipado",
-      description: "Mantén tu rutina de ejercicio con equipos modernos y espacios amplios."
+      title: t('amenities.gym.title'),
+      description: t('amenities.gym.description')
     },
     {
       icon: <Zap className="w-8 h-8" />,
-      title: "Sauna Relajante",
-      description: "Desconecta y renueva tu energía en nuestro espacio de relajación."
+      title: t('amenities.sauna.title'),
+      description: t('amenities.sauna.description')
     },
     {
       icon: <Coffee className="w-8 h-8" />,
-      title: "Cultura del Tinto",
-      description: "Nuestro acogedor café con los mejores granos colombianos y ambiente local."
+      title: t('amenities.coffee.title'),
+      description: t('amenities.coffee.description')
     },
     {
       icon: <Users className="w-8 h-8" />,
-      title: "Espacios Comunes",
-      description: "Áreas diseñadas para conectar, trabajar y compartir con otros viajeros."
+      title: t('amenities.common.title'),
+      description: t('amenities.common.description')
     }
   ];
 
@@ -29,11 +34,12 @@ const WellnessCommunity = () => {
     <section id="wellness" className="py-16 bg-warm-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
+          {/* 4. Reemplazar texto estático con t() */}
           <h2 className="text-3xl md:text-4xl font-bold text-warm-brown mb-6">
-            Conecta Contigo y con Otros
+            {t('wellness.title')}
           </h2>
           <p className="text-lg text-gray-700 max-w-2xl mx-auto">
-            Amenidades únicas que nutren tu bienestar físico, mental y social durante tu estadía.
+            {t('wellness.subtitle')}
           </p>
         </div>
         
@@ -41,23 +47,23 @@ const WellnessCommunity = () => {
           <div>
             <img 
               src="https://images.pexels.com/photos/3822864/pexels-photo-3822864.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
-              alt="Sala de meditación"
+              alt={t('wellness.meditation.alt')} // También en atributos 'alt'
               className="rounded-2xl shadow-lg w-full h-80 object-cover"
             />
           </div>
           
           <div>
-            <h3 className="text-2xl font-bold text-warm-brown mb-4">Sala de Meditación</h3>
+            <h3 className="text-2xl font-bold text-warm-brown mb-4">
+              {t('wellness.meditation.title')}
+            </h3>
             <p className="text-gray-700 leading-relaxed mb-6">
-              Un espacio sagrado para la reflexión interior, equipado con elementos naturales 
-              y una vista inspiradora de Monserrate. Aquí puedes reconectar contigo mismo 
-              y encontrar la paz que buscas en tu viaje.
+              {t('wellness.meditation.description')}
             </p>
             <div className="flex items-center text-terracotta">
             <div className="flex items-center text-brand-gold">
               <div className="w-2 h-2 bg-brand-gold rounded-full mr-3"></div>
-              <span className="font-medium">Sesiones de meditación grupal Lunes, Miércoles y Viernes</span>
-              <span className="font-medium">8:00 am, Edificio Las Aguas Inner Experience</span>
+              <span className="font-medium">{t('wellness.meditation.schedule')}</span>
+              <span className="font-medium">{t('wellness.meditation.location')}</span>
             </div>
             </div>
           </div>

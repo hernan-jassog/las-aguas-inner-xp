@@ -1,0 +1,236 @@
+{
+  "nav": {
+    "titulo": "Las Aguas Inner Experience",
+    "inicio": "Home",
+    "espacios": "Spaces",
+    "wellness": "Wellness",
+    "testimonios": "Testimonials",
+    "reservar_ahora": "Book Now"
+  },
+  "hero": {
+    "titleLine1": "Your Inner Experience",
+    "titleLine2": "Begins Here",
+    "subtitle": "Discover a refuge in the heart of Bogotá, designed to connect, explore, and renew your spirit."
+  },
+  "introduction": {
+    "title": "More than a place to stay",
+    "subtitle": "We are a hub for conscious travelers. Our brand is built on providing an \"Inner Experience\" that connects guests with themselves, with others, and with the soul of Bogotá.",
+    "cards": {
+      "self": {
+        "title": "With Yourself",
+        "description": "Meditation, wellness, and personal reflection spaces for your inner growth."
+      },
+      "others": {
+        "title": "With Others",
+        "description": "A vibrant community of conscious travelers sharing authentic experiences."
+      },
+      "city": {
+        "title": "With Bogotá",
+        "description": "Authentic cultural immersion in the heart of the Colombian capital."
+      }
+    }
+  },
+  "features": {
+    "kitchenette": "Equipped kitchenette",
+    "privateBath": "Private bathroom",
+    "workspace": "Work area",
+    "wifi": "High-speed Wi-Fi",
+    "queenBed": "Queen bed",
+    "desk": "Desk",
+    "fullAccess": "Full access",
+    "bunks": "Comfortable bunks",
+    "lockers": "Secure lockers",
+    "sharedBath": "Shared bathrooms",
+    "community": "Vibrant community"
+  },
+  "accommodations": {
+    "title": "Our Spaces",
+    "subtitle": "Designed for different needs and budgets, all with the same commitment to quality and experience.",
+    "seeMore": "See more",
+    "list": [
+      {
+        "slug": "estudio-patio-privado",
+        "title": "Private Patio Studio",
+        "description": "A refuge of elegance and serenity in the heart of La Candelaria. This first-floor studio offers a private bathroom and a kitchen equipped with a fridge, microwave, and coffee maker. Its beautiful interior patio, for exclusive use of the studio guests, provides an ideal space to relax and enjoy the outdoors in total privacy. Perfect for those seeking calm, comfort, and connection in an intimate environment with high-speed Wi-Fi.",
+        "image": "/images/estudio-patio-privado/1.webp",
+        "features": ["kitchenette", "privateBath", "workspace", "wifi"]
+      },
+      {
+        "slug": "estudio-doble-deluxe",
+        "title": "Deluxe Double Studio",
+        "description": "Discover the perfect balance between elegance and well-being in our Deluxe Double Studio. This space is designed for a unique experience of rest and harmony. It has a private bathroom and a fully equipped kitchen with a fridge, microwave, coffee maker, and everything you need for your comfort. Its balcony with a mountain view invites you to breathe tranquility and connect with the energy of La Candelaria. It also has high-speed Wi-Fi to keep you connected in an environment of serenity and comfort.",
+        "image": "/images/estudio-doble-deluxe/1.webp",
+        "features": ["kitchenette", "privateBath", "workspace", "wifi"]
+      },
+      {
+        "slug": "estudio-superior",
+        "title": "Superior Studio",
+        "description": "Immerse yourself in an experience of rest and well-being in our Superior Studio, a space where elegance combines with tranquility. Its imposing window, spanning the entire back wall, fills the room with natural light and creates a warm, relaxing atmosphere. It has a private bathroom and a fully equipped kitchen with a fridge, microwave, and coffee maker, ideal for long stays or comfort getaways. It also has high-speed Wi-Fi to keep you connected while enjoying serenity and style.",
+        "image": "/images/estudio-superior/1.webp",
+        "features": ["kitchenette", "privateBath", "workspace", "wifi"]
+      },
+      {
+        "slug": "estudio-balcon",
+        "title": "Balcony Studio",
+        "description": "Enjoy a refuge of calm and well-being in our Interior Studio with Balcony. This elegant space features a private bathroom and a kitchen equipped with a fridge, microwave, and coffee maker, designed for your total comfort. Its balcony, facing the building's interior, provides an intimate and quiet atmosphere, ideal for relaxing, reading, or simply breathing in tranquility. High-speed Wi-Fi complements an experience where serenity, comfort, and elegance meet in perfect harmony.",
+        "image": "/images/estudio-balcon/1.webp",
+        "features": ["kitchenette", "privateBath", "workspace", "wifi"]
+      },
+      {
+        "slug": "estudio-estandar",
+        "title": "Standard Studio",
+        "description": "Relax in an atmosphere of elegance and serenity in our Standard Studio. This space has a private bathroom and a fully equipped kitchen with a fridge, microwave, and coffee maker, ideal for a comfortable and revitalizing stay. Its large window facing the building's interior allows natural light to flood the room, creating a sense of peace and harmony. It also has high-speed Wi-Fi so you can always stay connected while enjoying the well-being and calm of La Candelaria.",
+        "image": "/images/estudio-estandar/1.jpg",
+        "features": ["kitchenette", "privateBath", "workspace", "wifi"]
+      },
+      {
+        "slug": "estudio-triple-estandar",
+        "title": "Standard Triple Studio",
+        "description": "Comfort, elegance, and spaciousness come together in our Standard Triple Studio, ideal for sharing moments of rest and well-being. It features two beds, a private bathroom, and a fully equipped kitchen with a fridge, microwave, and coffee maker. Its large window facing the building's interior fills the space with natural light, creating a warm and quiet atmosphere. Perfect for three people seeking comfort, connection, and serenity, with high-speed Wi-Fi included.",
+        "image": "/images/estudio-triple-estandar/1.webp",
+        "features": ["kitchenette", "privateBath", "workspace", "wifi"]
+      },
+      {
+        "slug": "estudio-basico",
+        "title": "Basic Studio",
+        "description": "Simplicity, comfort, and well-being come together in our Basic Studio, located on the building's first floor. This space has a private bathroom and a fully equipped kitchen with a fridge, microwave, and coffee maker, ideal for those seeking a practical stay without losing the essence of rest. Its front-facing window lets you enjoy natural light and the vibrant atmosphere of La Candelaria. It also has high-speed Wi-Fi, creating a perfect balance between comfort, elegance, and serenity.",
+        "image": "/images/estudio-basico/1.webp",
+        "features": ["kitchenette", "privateBath", "workspace", "wifi"]
+      },
+      {
+        "slug": "habitacion-compartida-mixta-6-camas",
+        "title": "6-Bed Mixed Dorm Room",
+        "description": "A comfortable and functional option for travelers seeking well-being and connection. This shared room has six beds and a balcony facing the front of the building, where you can enjoy the view and the authentic atmosphere of La Candelaria. Each bed is rented individually and includes access to a shared, fully equipped bathroom and kitchen, plus high-speed Wi-Fi. An ideal space to rest, socialize, and live a quiet experience in the historic center of Bogotá.",
+        "image": "/images/habitacion-compartida-mixta-6-camas/1.webp",
+        "features": ["kitchenette", "privateBath", "workspace", "wifi"]
+      },
+      {
+        "slug": "habitacion-compartida-mixta-4-camas",
+        "title": "4-Bed Mixed Dorm Room",
+        "description": "A cozy and elegant space designed for travelers who value tranquility and well-being. This shared room has four beds and is rented individually. It has a fully equipped shared bathroom and kitchen, plus high-speed Wi-Fi. Its window towards the back of the building offers a beautiful city view, creating a serene and bright atmosphere ideal for resting, connecting, and enjoying the experience in La Candelaria.",
+        "image": "/images/habitacion-compartida-mixta-4-camas/1.webp",
+        "features": ["queenBed", "privateBath", "desk", "fullAccess"]
+      },
+      {
+        "slug": "habitacion-compartida-femenina-4-camas",
+        "title": "4-Bed Female Dorm Room",
+        "description": "A space designed especially for women seeking comfort, safety, and tranquility during their stay. This room has a cozy and elegant atmosphere, with a balcony towards the interior of the building and direct access to the terrace, ideal for enjoying the view and fresh air. Each bed is rented individually and includes access to a fully equipped shared bathroom and kitchen, plus high-speed Wi-Fi. A perfect place to rest, feel safe, and experience La Candelaria in style.",
+        "image": "/images/habitacion-compartida-femenina-4-camas/1.webp",
+        "features": ["bunks", "lockers", "sharedBath", "community"]
+      }
+    ]
+  },
+  "wellness": {
+    "title": "Connect With Yourself and Others",
+    "subtitle": "Unique amenities that nourish your physical, mental, and social well-being during your stay.",
+    "meditation": {
+      "alt": "Meditation Room",
+      "title": "Meditation Room",
+      "description": "A sacred space for inner reflection, equipped with natural elements and an inspiring view of Monserrate. Here you can reconnect with yourself and find the peace you seek on your journey.",
+      "schedule": "Group meditation sessions Monday, Wednesday, and Friday",
+      "location": "8:00 am, Las Aguas Inner Experience Building"
+    }
+  },
+  "amenities": {
+    "gym": {
+      "title": "Equipped Gym",
+      "description": "Maintain your exercise routine with modern equipment and spacious areas."
+    },
+    "sauna": {
+      "title": "Relaxing Sauna",
+      "description": "Disconnect and renew your energy in our relaxation space."
+    },
+    "coffee": {
+      "title": "Tinto Culture",
+      "description": "Our cozy café with the best Colombian beans and a local atmosphere."
+    },
+    "common": {
+      "title": "Common Spaces",
+      "description": "Areas designed to connect, work, and share with other travelers."
+    }
+  },
+  "testimonials": {
+    "title": "Transformative Experiences",
+    "subtitle": "Discover why travelers from all over the world choose Las Aguas for their inner experience.",
+    "list": [
+      {
+        "name": "Correcaminos",
+        "country": "Spain",
+        "text": "Las Aguas was our first stop on a trip through Colombia, and there couldn't have been a better choice. We came with the idea of resting for a couple of days after the trip and ended up finding friends with whom we shared great moments, the hostel staff. Jeicob's tour of the local neighborhoods was the best experience and I highly recommend it. Besides him, both Sergio and the other workers and guests gave us a wonderful stay that we will never forget.",
+        "rating": 5,
+        "image": "images/testimonials/1.jpg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop"
+      },
+      {
+        "name": "Juliana",
+        "country": "Colombia",
+        "text": "The hostel is a good place to stay, it is very well located in La Candelaria with easy walking access to several tourist sites in the city center. What we liked most was the kindness of the hostel staff, always attentive to our needs.",
+        "rating": 5,
+        "image": "images/testimonials/2.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop"
+      },
+      {
+        "name": "Hernán",
+        "country": "Mexico",
+        "text": "As a digital nomad, I found the perfect balance between productivity and well-being. The WiFi is excellent, the gym spotless, and the community inspiring.",
+        "rating": 5,
+        "image": "images/testimonials/3.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop"
+      }
+    ]
+  },
+  "surroundings": {
+    "title": "Surroundings",
+    "subtitle": "Located in the heart of the Las Aguas neighborhood, you'll have immediate access to the best of Bogotá.",
+    "list": [
+      {
+        "title": "Historic Center",
+        "description": "Just steps away from Bogotá's main historical sites.",
+        "image": "/images/alrededores/centro-bogota.png",
+        "distance": "2 min walk"
+      },
+      {
+        "title": "Monserrate",
+        "description": "Privileged view of the city's most emblematic mountain.",
+        "image": "/images/alrededores/monserrate-bogota.jpg",
+        "distance": "15 min cable car"
+      },
+      {
+        "title": "Flea Market",
+        "description": "Find unique treasures at the most famous antique market.",
+        "image": "/images/alrededores/mercado-bogota.jpg",
+        "distance": "5 min walk"
+      },
+      {
+        "title": "Local Cafés",
+        "description": "Discover the coffee culture in the best cafés in the neighborhood.",
+        "image": "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
+        "distance": "1-3 min walk"
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Your transformation journey awaits",
+    "subtitle": "Join our community of conscious travelers and discover everything Bogotá and your inner self have to offer.",
+    "button1": "See Availability",
+    "button2": "Contact Now",
+    "location": "Located in the heart of the Las Aguas neighborhood, Bogotá"
+  },
+  "gallery": {
+    "back": "Back",
+    "enlargedImageAlt": "Enlarged image"
+  },
+  "footer": {
+    "description": "More than just a place to stay, we are an experience that connects conscious travelers with the heart of Bogotá and their own inner transformation.",
+    "contact": {
+      "title": "Contact",
+      "addressLine1": "Edificio las Aguas, Calle 12f #0-19",
+      "addressLine2": "La Candelaria Neighborhood - Historic Center"
+    },
+    "links": {
+      "title": "Quick Links",
+      "tours": "Local Tours"
+    },
+    "copyright": {
+      "madeWith": "Made with <1/> for conscious travelers",
+      "reserved": "© 2025 Las Aguas Inner Experience. All rights reserved."
+    }
+  }
+} 

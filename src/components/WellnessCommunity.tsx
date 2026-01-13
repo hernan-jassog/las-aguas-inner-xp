@@ -68,6 +68,31 @@ const WellnessCommunity = () => {
             </div>
           </div>
         </div>
+        <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
+          <div>
+            <img 
+              src="/images/wellness/1.jpeg"
+              alt={t('wellness.wordcircle.alt')} // También en atributos 'alt'
+              className="rounded-2xl shadow-lg w-full h-80 object-cover"
+            />
+          </div>
+          
+          <div>
+            <h3 className="text-2xl font-bold text-warm-brown mb-4">
+              {t('wellness.wordcircle.title')}
+            </h3>
+            <p className="text-gray-700 leading-relaxed mb-6">
+              {t('wellness.wordcircle.description')}
+            </p>
+            <div className="flex items-center text-terracotta">
+            <div className="flex items-center text-brand-gold">
+              <div className="w-2 h-2 bg-brand-gold rounded-full mr-3"></div>
+              <span className="font-medium">{t('wellness.wordcircle.schedule')}</span>
+              <span className="font-medium">{t('wellness.wordcircle.location')}</span>
+            </div>
+            </div>
+          </div>
+        </div>
         
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {amenities.map((amenity, index) => (
@@ -83,6 +108,7 @@ const WellnessCommunity = () => {
           ))}
         </div>
       </div>
+      
     </section>
   );
 };

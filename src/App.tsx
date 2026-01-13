@@ -9,6 +9,7 @@ import Testimonials from './components/Testimonials';
 import FinalCTA from './components/FinalCTA';
 import Footer from './components/Footer';
 import GalleryPage from './components/GalleryPage';
+import SocialAreas from './components/SocialAreas';
 
 function App() {
   const [currentView, setCurrentView] = useState<'home' | 'gallery'>('home');
@@ -187,6 +188,7 @@ function App() {
       <Navigation />
       <HeroSection />
       <Introduction />
+      <SocialAreas />
       <Accommodations />
       <WellnessCommunity />
       <Testimonials />

@@ -24,6 +24,7 @@ const Navigation = () => {
              {/* --- 2. MODIFICACIÓN: Cambié 'items-baseline' por 'items-center' para alinear el switcher --- */}
             <div className="ml-10 flex items-center space-x-8">
               <a href="#inicio" className="text-warm-brown hover:text-brand-gold transition-colors duration-200">{t('nav.inicio')}</a>
+              <a href="#areassociales" className="text-warm-brown hover:text-brand-gold transition-colors duration-200">{t('nav.areassociales')}</a>
               <a href="#espacios" className="text-warm-brown hover:text-brand-gold transition-colors duration-200">{t('nav.espacios')}</a>
               <a href="#wellness" className="text-warm-brown hover:text-brand-gold transition-colors duration-200">{t('nav.wellness')}</a>
               <a href="#testimonios" className="text-warm-brown hover:text-brand-gold transition-colors duration-200">{t('nav.testimonios')}</a>

@@ -2,6 +2,7 @@
   "nav": {
     "titulo": "Las Aguas Inner Experience",
     "inicio": "Início",
+    "areassociales": "Áreas Sociais",
     "espacios": "Espaços",
     "wellness": "Bem-estar",
     "testimonios": "Depoimentos",
@@ -99,21 +100,21 @@
       },
       {
         "slug": "habitacion-compartida-mixta-6-camas",
-        "title": "Quarto Compartilhado Misto de 6 Camas",
+        "title": "Quarto Misto (6 Camas)",
         "description": "Uma opção confortável para viajantes que buscam bem-estar e conexão. Este quarto possui seis camas e uma varanda frontal. Cada cama é alugada individualmente e inclui acesso a banheiro e cozinha compartilhados, além de Wi-Fi de alta velocidade. Ideal para descansar e socializar.",
         "image": "/images/habitacion-compartida-mixta-6-camas/1.webp",
         "features": ["kitchenette", "privateBath", "workspace", "wifi"]
       },
       {
         "slug": "habitacion-compartida-mixta-4-camas",
-        "title": "Quarto Compartilhado Misto de 4 Camas",
+        "title": "Quarto Misto (4 Camas)",
         "description": "Um espaço acolhedor e elegante. Este quarto possui quatro camas e é alugado individualmente. Dispõe de banheiro e cozinha compartilhados e Wi-Fi de alta velocidade. Sua janela posterior oferece uma bela vista da cidade, criando um ambiente sereno.",
         "image": "/images/habitacion-compartida-mixta-4-camas/1.webp",
         "features": ["queenBed", "privateBath", "desk", "fullAccess"]
       },
       {
         "slug": "habitacion-compartida-femenina-4-camas",
-        "title": "Quarto Compartilhado Feminino de 4 Camas",
+        "title": "Quarto Feminino (4 Camas)",
         "description": "Um espaço projetado para mulheres que buscam conforto e segurança. Possui varanda interna e acesso direto ao terraço. Cada cama é alugada individualmente e inclui acesso a banheiro e cozinha compartilhados, além de Wi-Fi de alta velocidade. Perfeito para descansar e se sentir segura.",
         "image": "/images/habitacion-compartida-femenina-4-camas/1.webp",
         "features": ["bunks", "lockers", "sharedBath", "community"]
@@ -129,6 +130,13 @@
       "description": "Um espaço sagrado para reflexão interior, equipado com elementos naturais e uma vista inspiradora de Monserrate. Aqui você pode se reconectar consigo mesmo e encontrar a paz que busca em sua jornada.",
       "schedule": "Sessões de meditação em grupo: segunda, quarta e sexta",
       "location": "8:00 am, Edifício Las Aguas Inner Experience"
+    },
+    "wordcircle": {
+      "alt": "Círculo da Palavra",
+      "title": "Círculo da Palavra",
+      "description": "Onde a palavra une e o fogo ilumina. Um refúgio circular para o diálogo e a contemplação, reconectando-nos com a essência de compartilhar o momento presente.",
+      "schedule": "Sessões em grupo terças e quintas",
+      "location": "8:00 pm, Edifício Las Aguas Inner Experience"
     }
   },
   "amenities": {
@@ -148,6 +156,48 @@
       "title": "Espaços Comuns",
       "description": "Áreas projetadas para conectar, trabalhar e compartilhar com outros viajantes."
     }
+  },
+  "socialAreas": {
+    "title": "Nossos Espaços Exclusivos",
+    "subtitle": "Projetamos cada canto pensando no seu bem-estar, produtividade e recreação sem sair de casa.",
+    "carousel": [
+      {
+        "title": "Terraço Sky View: O Horizonte aos seus Pés",
+        "description": "Um santuário nas alturas onde o pôr do sol ganha vida. Desfrute de vistas panorâmicas inigualáveis e uma brisa refrescante em nosso lounge ao ar livre, perfeito para desconectar do ritmo urbano.",
+        "image": "/images/spaces/1.jpg",
+        "location": "Cobertura"
+      },
+      {
+        "title": "Fitness Center Elite",
+        "description": "Redefina sua rotina em uma academia de vanguarda. Equipado com tecnologia de ponta e zonas de treinamento funcional, este espaço inspira você a alcançar seu potencial físico máximo sem desculpas.",
+        "image": "/images/spaces/2.jpg",
+        "location": "Subsolo"
+      },
+      {
+        "title": "The Social Hub",
+        "description": "O coração vibrante de nossa comunidade. Um salão sofisticado com design contemporâneo, ideal para tardes de leitura, conversas com vizinhos ou simplesmente apreciar o design interior em sua máxima expressão.",
+        "image": "/images/spaces/3.jpg",
+        "location": "Subsolo"
+      },
+      {
+        "title": "Workspace Studio & Coworking",
+        "description": "Eleve sua produtividade em um ambiente projetado para o sucesso. Com conectividade de alta velocidade, mobiliário ergonômico e um ambiente silencioso, é a extensão perfeita do seu escritório a poucos passos de sua casa.",
+        "image": "/images/spaces/4.jpg",
+        "location": "Subsolo"
+      },
+      {
+        "title": "Santuário de Bem-estar & Sauna",
+        "description": "Um refúgio termal para purificar corpo e mente. Mergulhe em uma experiência de relaxamento profundo, onde o calor e o silêncio se combinam para eliminar o estresse e revitalizar seus sentidos.",
+        "image": "/images/spaces/5.jpg",
+        "location": "Subsolo"
+      },
+      {
+        "title": "Grill Garden & Gourmet BBQ",
+        "description": "O cenário perfeito para ser o melhor anfitrião. Uma área de churrasqueiras premium sob as estrelas, projetada para criar memórias culinárias inesquecíveis com família e amigos em um ambiente festivo e exclusivo.",
+        "image": "/images/spaces/6.jpg",
+        "location": "Cobertura"
+      }
+    ]
   },
   "testimonials": {
     "title": "Experiências que Transformam",
@@ -203,6 +253,37 @@
         "description": "Descubra a cultura cafeeira nos melhores cafés do bairro.",
         "image": "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
         "distance": "1-3 min a pé"
+      }
+    ]
+  },
+  "experiences": {
+    "tagline": "Descubra a Cidade",
+    "title": "Rotas e Vivências Locais",
+    "subtitle": "Mergulhe na cultura autêntica com nossos tours guiados exclusivos para hóspedes.",
+    "list": [
+      {
+        "title": "Tour de Favelas: Vida & Cor",
+        "description": "Uma imersão respeitosa e fascinante no coração da comunidade. Descubra a arquitetura espontânea, a arte urbana e o calor de seus habitantes sob uma nova perspectiva.",
+        "image": "/images/spaces/1.jpg",
+        "duration": "3 Horas"
+      },
+      {
+        "title": "Mirante do Arco Celestial",
+        "description": "Uma caminhada cênica que recompensa o esforço com as vistas mais impressionantes do vale. O ponto perfeito onde a natureza abraça a cidade.",
+        "image": "/images/spaces/2.jpg",
+        "duration": "4 Horas"
+      },
+      {
+        "title": "Rota de Graffiti Urbano",
+        "description": "Explore um museu a céu aberto. Percorra os murais mais icônicos e conheça as histórias de resistência e esperança plasmadas nas paredes por artistas locais.",
+        "image": "/images/spaces/3.jpg",
+        "duration": "2.5 Horas"
+      },
+      {
+        "title": "Tour Cultural: Raízes Vivas",
+        "description": "Uma viagem no tempo pelo centro histórico. Gastronomia, música e arquitetura se unem para contar a história não escrita de nossa região.",
+        "image": "/images/spaces/4.jpg",
+        "duration": "Dia Inteiro"
       }
     ]
   },

@@ -2,6 +2,7 @@
   "nav": {
     "titulo": "Las Aguas Inner Experience",
     "inicio": "Home",
+    "areassociales": "Social Areas",
     "espacios": "Spaces",
     "wellness": "Wellness",
     "testimonios": "Testimonials",
@@ -44,7 +45,7 @@
     "community": "Vibrant community"
   },
   "accommodations": {
-    "title": "Our Spaces",
+    "title": "Our Sanctuaries of Rest",
     "subtitle": "Designed for different needs and budgets, all with the same commitment to quality and experience.",
     "seeMore": "See more",
     "list": [
@@ -129,6 +130,13 @@
       "description": "A sacred space for inner reflection, equipped with natural elements and an inspiring view of Monserrate. Here you can reconnect with yourself and find the peace you seek on your journey.",
       "schedule": "Group meditation sessions Monday, Wednesday, and Friday",
       "location": "8:00 am, Las Aguas Inner Experience Building"
+    },
+    "wordcircle": {
+      "alt": "Word Circle",
+      "title": "Word Circle",
+      "description": "Where words unite and fire illuminates. A circular refuge for dialogue and contemplation, reconnecting us with the essence of sharing the present moment.",
+      "schedule": "Group sessions Tuesdays and Thursdays",
+      "location": "8:00 pm, Las Aguas Inner Experience Building"
     }
   },
   "amenities": {
@@ -148,6 +156,48 @@
       "title": "Common Spaces",
       "description": "Areas designed to connect, work, and share with other travelers."
     }
+  },
+  "socialAreas": {
+    "title": "Our Exclusive Spaces",
+    "subtitle": "We designed every corner thinking of your well-being, productivity, and recreation without leaving home.",
+    "carousel": [
+      {
+        "title": "Sky View Terrace: The Horizon at Your Feet",
+        "description": "A sanctuary in the heights where the sunset comes to life. Enjoy unmatched panoramic views and a refreshing breeze in our open-air lounge, perfect for disconnecting from the urban rhythm.",
+        "image": "/images/spaces/1.jpg",
+        "location": "Rooftop"
+      },
+      {
+        "title": "Elite Fitness Center",
+        "description": "Redefine your routine in a state-of-the-art gym. Equipped with the latest technology and functional training zones, this space inspires you to reach your physical potential with no excuses.",
+        "image": "/images/spaces/2.jpg",
+        "location": "Basement"
+      },
+      {
+        "title": "The Social Hub",
+        "description": "The vibrant heart of our community. A sophisticated lounge with contemporary design, ideal for reading afternoons, conversations with neighbors, or simply enjoying interior design at its finest.",
+        "image": "/images/spaces/3.jpg",
+        "location": "Basement"
+      },
+      {
+        "title": "Workspace Studio & Coworking",
+        "description": "Elevate your productivity in an environment designed for success. With high-speed connectivity, ergonomic furniture, and a quiet atmosphere, it is the perfect extension of your office just steps from your home.",
+        "image": "/images/spaces/4.jpg",
+        "location": "Basement"
+      },
+      {
+        "title": "Wellness Sanctuary & Sauna",
+        "description": "A thermal refuge to purify body and mind. Immerse yourself in a deep relaxation experience, where heat and silence combine to eliminate stress and revitalize your senses.",
+        "image": "/images/spaces/5.jpg",
+        "location": "Basement"
+      },
+      {
+        "title": "Grill Garden & Gourmet BBQ",
+        "description": "The perfect stage for your best hosting. A premium grilling area under the stars, designed to create unforgettable culinary memories with family and friends in a festive and exclusive setting.",
+        "image": "/images/spaces/6.jpg",
+        "location": "Rooftop"
+      }
+    ]
   },
   "testimonials": {
     "title": "Transformative Experiences",
@@ -206,6 +256,37 @@
       }
     ]
   },
+  "experiences": {
+    "tagline": "Discover the City",
+    "title": "Local Routes & Experiences",
+    "subtitle": "Immerse yourself in authentic culture with our exclusive guided tours for guests.",
+    "list": [
+      {
+        "title": "Favela Tour: Life & Color",
+        "description": "A respectful and fascinating immersion into the heart of the community. Discover spontaneous architecture, urban art, and the warmth of its inhabitants from a new perspective.",
+        "image": "/images/spaces/1.jpg",
+        "duration": "3 Hours"
+      },
+      {
+        "title": "Celestial Arch Viewpoint",
+        "description": "A scenic hike that rewards effort with the most impressive views of the valley. The perfect spot where nature embraces the city.",
+        "image": "/images/spaces/2.jpg",
+        "duration": "4 Hours"
+      },
+      {
+        "title": "Urban Graffiti Route",
+        "description": "Explore an open-air museum. Tour iconic murals and learn the stories of resistance and hope depicted on the walls by local artists.",
+        "image": "/images/spaces/3.jpg",
+        "duration": "2.5 Hours"
+      },
+      {
+        "title": "Cultural Tour: Living Roots",
+        "description": "A journey through time in the historic district. Gastronomy, music, and architecture come together to tell you the unwritten history of our region.",
+        "image": "/images/spaces/4.jpg",
+        "duration": "Full Day"
+      }
+    ]
+  },
   "finalCta": {
     "title": "Your transformation journey awaits",
     "subtitle": "Join our community of conscious travelers and discover everything Bogotá and your inner self have to offer.",
@@ -233,4 +314,4 @@
       "reserved": "© 2025 Las Aguas Inner Experience. All rights reserved."
     }
   }
-} 
+}

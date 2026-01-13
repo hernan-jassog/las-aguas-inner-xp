@@ -2,7 +2,8 @@
   "nav": {
     "titulo": "Las Aguas Inner Experience",
     "inicio": "Inicio",
-    "espacios": "Espacios",
+    "areassociales": "Areas Sociales",
+    "espacios": "Habitaciones",
     "wellness": "Bienestar",
     "testimonios": "Testimonios",
     "reservar_ahora": "Reservar Ahora"
@@ -44,7 +45,7 @@
     "community": "Comunidad vibrante"
   },
   "accommodations": {
-    "title": "Nuestros Espacios",
+    "title": "Nuestros Refugios de Descanso",
     "subtitle": "Diseñados para diferentes necesidades y presupuestos, todos con el mismo compromiso de calidad y experiencia.",
     "seeMore": "Ver más",
     "list": [
@@ -129,6 +130,13 @@
       "description": "Un espacio sagrado para la reflexión interior, equipado con elementos naturales y una vista inspiradora de Monserrate. Aquí puedes reconectar contigo mismo y encontrar la paz que buscas en tu viaje.",
       "schedule": "Sesiones de meditación grupal Lunes, Miércoles y Viernes",
       "location": "8:00 am, Edificio Las Aguas Inner Experience"
+    },
+    "wordcircle": {
+      "alt": "Círculo de Palabra",
+      "title": "Círculo de Palabra",
+      "description": "Donde la palabra une y el fuego ilumina. Un refugio circular para el diálogo y la contemplación, reconectándonos con la esencia de compartir el momento presente.",
+      "schedule": "Sesiones grupales Martes y Jueves",
+      "location": "8:00 pm, Edificio Las Aguas Inner Experience"
     }
   },
   "amenities": {
@@ -148,6 +156,48 @@
       "title": "Espacios Comunes",
       "description": "Áreas diseñadas para conectar, trabajar y compartir con otros viajeros."
     }
+  },
+  "socialAreas": {
+    "title": "Nuestros Espacios Exclusivos",
+    "subtitle": "Diseñamos cada rincón pensando en tu bienestar, productividad y recreación sin salir de casa.",
+    "carousel": [
+      {
+        "title": "Terraza Sky View: El Horizonte a tus Pies",
+        "description": "Un santuario en las alturas donde el atardecer cobra vida. Disfruta de vistas panorámicas inigualables y una brisa refrescante en nuestro espacio lounge al aire libre, perfecto para desconectar del ritmo urbano.",
+        "image": "/images/spaces/1.jpg",
+        "location": "Rooftop"
+      },
+      {
+        "title": "Fitness Center Elite",
+        "description": "Redefine tu rutina en un gimnasio funcional y cómodo. Equipado con elementos de entrenamiento funcional, este espacio te inspira a alcanzar tu máximo potencial físico sin excusas.",
+        "image": "/images/spaces/2.jpg",
+        "location": "Basement"
+      },
+      {
+        "title": "The Social Hub",
+        "description": "El corazón vibrante de nuestra comunidad. Un salón sofisticado con diseño contemporáneo, ideal para tardes de lectura, conversaciones con otros viajeros o simplemente disfrutar del diseño interior en su máxima expresión.",
+        "image": "/images/spaces/3.jpg",
+        "location": "Basement"
+      },
+      {
+        "title": "Workspace Studio & Coworking",
+        "description": "Eleva tu productividad en un entorno diseñado para el éxito. Con conectividad de alta velocidad, mobiliario ergonómico y un ambiente silencioso, es la extensión perfecta de tu oficina a solo pasos de tu hogar.",
+        "image": "/images/spaces/4.jpg",
+        "location": "Basement"
+      },
+      {
+        "title": "Wellness Sanctuary & Sauna",
+        "description": "Un refugio termal para purificar cuerpo y mente. Sumérgete en una experiencia de relajación profunda, donde el calor y el silencio se combinan para eliminar el estrés y revitalizar tus sentidos.",
+        "image": "/images/spaces/5.jpg",
+        "location": "Basement"
+      },
+      {
+        "title": "Grill Garden & Gourmet BBQ",
+        "description": "El escenario perfecto para tus mejores anfitriones. Un área de asador premium bajo las estrellas, diseñada para crear memorias culinarias inolvidables con familia y amigos en un ambiente festivo y exclusivo.",
+        "image": "/images/spaces/6.jpg",
+        "location": "Rooftop"
+      }
+    ]
   },
   "testimonials": {
     "title": "Experiencias que Transforman",
@@ -203,6 +253,37 @@
         "description": "Descubre la cultura cafetera en los mejores cafés del barrio.",
         "image": "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
         "distance": "1-3 min caminando"
+      }
+    ]
+  },
+  "experiences": {
+    "tagline": "Descubre la Ciudad",
+    "title": "Rutas y Vivencias Locales",
+    "subtitle": "Sumérgete en la cultura auténtica con nuestros tours guiados exclusivos para huéspedes.",
+    "list": [
+      {
+        "title": "Tour de Favelas: Vida & Color",
+        "description": "Una inmersión respetuosa y fascinante en el corazón de la comunidad. Descubre la arquitectura espontánea, el arte urbano y la calidez de sus habitantes desde una nueva perspectiva.",
+        "image": "/images/tours/1.jpeg",
+        "duration": "3 Horas"
+      },
+      {
+        "title": "Tour Miradores",
+        "description": "Una caminata escénica que recompensa el esfuerzo con las vistas más impresionantes de la ciudad. El punto perfecto donde la naturaleza abraza la ciudad.",
+        "image": "/images/tours/2.avif",
+        "duration": "4 Horas"
+      },
+      {
+        "title": "Ruta de Graffiti Urbano",
+        "description": "Explora un museo a cielo abierto. Recorre los murales más icónicos y conoce las historias de resistencia y esperanza plasmadas en las paredes por artistas locales.",
+        "image": "/images/tours/3.jpeg",
+        "duration": "2.5 Horas"
+      },
+      {
+        "title": "Tour Cultural: Raíces Vivas",
+        "description": "Un viaje a través del tiempo por el casco histórico. Gastronomía, música y arquitectura se unen para contarte la historia no escrita de nuestra región.",
+        "image": "/images/tours/4.jpg",
+        "duration": "Full Day"
       }
     ]
   },

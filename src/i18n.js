@@ -18,7 +18,7 @@ i18n
     fallbackLng: 'es',
     debug: true, // Ponlo en 'false' para producción
 
-    supportedLngs: ['es', 'en', 'pt'],
+    supportedLngs: ['es', 'en', 'pt', 'fr'],
     
     interpolation: {
       escapeValue: false, // React ya se encarga de la protección XSS

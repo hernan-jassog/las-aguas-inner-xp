@@ -1,0 +1,317 @@
+{
+  "nav": {
+    "titulo": "Las Aguas Inner Experience",
+    "inicio": "Accueil",
+    "areassociales": "Espaces Sociaux",
+    "espacios": "Hébergements",
+    "wellness": "Bien-être",
+    "testimonios": "Témoignages",
+    "reservar_ahora": "Réserver Maintenant"
+  },
+  "hero": {
+    "titleLine1": "Votre Expérience Intérieure",
+    "titleLine2": "Commence Ici",
+    "subtitle": "Découvrez un refuge au cœur de Bogotá, conçu pour connecter, explorer et renouveler votre esprit."
+  },
+  "introduction": {
+    "title": "Plus qu'un simple lieu de séjour",
+    "subtitle": "Nous sommes un hub pour les voyageurs conscients. Notre marque est construite pour offrir une \"Expérience Intérieure\" qui connecte les hôtes avec eux-mêmes, avec les autres et avec l'âme de Bogotá.",
+    "cards": {
+      "self": {
+        "title": "Avec Soi-même",
+        "description": "Espaces de méditation, bien-être et réflexion personnelle pour votre croissance intérieure."
+      },
+      "others": {
+        "title": "Avec les Autres",
+        "description": "Une communauté vibrante de voyageurs conscients partageant des expériences authentiques."
+      },
+      "city": {
+        "title": "Avec Bogotá",
+        "description": "Immersion culturelle authentique au cœur de la capitale colombienne."
+      }
+    }
+  },
+  "features": {
+    "kitchenette": "Kitchenette équipée",
+    "privateBath": "Salle de bain privée",
+    "workspace": "Espace de travail",
+    "wifi": "Wi-Fi haut débit",
+    "queenBed": "Lit Queen size",
+    "desk": "Bureau",
+    "fullAccess": "Accès complet",
+    "bunks": "Lits superposés confortables",
+    "lockers": "Casiers sécurisés",
+    "sharedBath": "Salles de bain partagées",
+    "community": "Communauté vibrante"
+  },
+  "accommodations": {
+    "title": "Nos Refuges de Repos",
+    "subtitle": "Conçus pour différents besoins et budgets, tous avec le même engagement de qualité et d'expérience.",
+    "seeMore": "Voir plus",
+    "list": [
+      {
+        "slug": "estudio-patio-privado",
+        "title": "Studio Patio Privé",
+        "description": "Un refuge d'élégance et de sérénité au cœur de La Candelaria. Ce studio au rez-de-chaussée offre une salle de bain privée et une cuisine équipée avec réfrigérateur, micro-ondes et cafetière. Son magnifique patio intérieur, à usage exclusif, offre un espace idéal pour se détendre et profiter du plein air en toute intimité. Parfait pour ceux qui recherchent le calme et le confort avec Wi-Fi haut débit.",
+        "image": "/images/estudio-patio-privado/1.webp",
+        "features": ["kitchenette", "privateBath", "workspace", "wifi"]
+      },
+      {
+        "slug": "estudio-doble-deluxe",
+        "title": "Studio Double Deluxe",
+        "description": "Découvrez l'équilibre parfait entre élégance et bien-être. Cet espace a été conçu pour une expérience unique de repos. Il dispose d'une salle de bain privée et d'une cuisine entièrement équipée. Son balcon avec vue sur la montagne vous invite à respirer la tranquillité et à vous connecter à l'énergie de La Candelaria. Wi-Fi haut débit inclus.",
+        "image": "/images/estudio-doble-deluxe/1.webp",
+        "features": ["kitchenette", "privateBath", "workspace", "wifi"]
+      },
+      {
+        "slug": "estudio-superior",
+        "title": "Studio Supérieur",
+        "description": "Plongez dans une expérience de repos dans notre Studio Supérieur. Son imposante baie vitrée, qui couvre tout le mur arrière, inonde la pièce de lumière naturelle. Il dispose d'une salle de bain privée et d'une cuisine entièrement équipée, idéal pour les longs séjours. Wi-Fi haut débit pour rester connecté.",
+        "image": "/images/estudio-superior/1.webp",
+        "features": ["kitchenette", "privateBath", "workspace", "wifi"]
+      },
+      {
+        "slug": "estudio-balcon",
+        "title": "Studio avec Balcon",
+        "description": "Profitez d'un refuge de calme. Cet espace élégant dispose d'une salle de bain privée et d'une cuisine équipée. Son balcon, orienté vers l'intérieur du bâtiment, offre une ambiance intime et silencieuse, idéale pour se détendre. Le Wi-Fi haut débit complète une expérience de sérénité et de confort.",
+        "image": "/images/estudio-balcon/1.webp",
+        "features": ["kitchenette", "privateBath", "workspace", "wifi"]
+      },
+      {
+        "slug": "estudio-estandar",
+        "title": "Studio Standard",
+        "description": "Détendez-vous dans une ambiance d'élégance. Cet espace dispose d'une salle de bain privée et d'une cuisine complète. Sa large fenêtre donnant sur l'intérieur permet à la lumière naturelle d'inonder la pièce, créant une sensation de paix. Wi-Fi haut débit inclus.",
+        "image": "/images/estudio-estandar/1.jpg",
+        "features": ["kitchenette", "privateBath", "workspace", "wifi"]
+      },
+      {
+        "slug": "estudio-triple-estandar",
+        "title": "Studio Triple Standard",
+        "description": "Confort, élégance et espace se rejoignent. Idéal pour partager, il dispose de deux lits, d'une salle de bain privée et d'une cuisine équipée. Sa large fenêtre intérieure remplit l'espace de lumière. Parfait pour trois personnes recherchant le confort, avec Wi-Fi haut débit.",
+        "image": "/images/estudio-triple-estandar/1.webp",
+        "features": ["kitchenette", "privateBath", "workspace", "wifi"]
+      },
+      {
+        "slug": "estudio-basico",
+        "title": "Studio Basique",
+        "description": "Simplicité, confort et bien-être au rez-de-chaussée. Dispose d'une salle de bain privée et d'une cuisine équipée. Sa fenêtre frontale permet de profiter de la lumière naturelle et de l'ambiance vibrante de La Candelaria. Wi-Fi haut débit inclus.",
+        "image": "/images/estudio-basico/1.webp",
+        "features": ["kitchenette", "privateBath", "workspace", "wifi"]
+      },
+      {
+        "slug": "habitacion-compartida-mixta-6-camas",
+        "title": "Dortoir Mixte (6 Lits)",
+        "description": "Une option confortable pour les voyageurs cherchant bien-être et connexion. Ce dortoir dispose de six lits et d'un balcon en façade. Chaque lit est loué individuellement et inclut l'accès à une salle de bain et une cuisine partagées, ainsi que le Wi-Fi haut débit. Idéal pour se reposer et socialiser.",
+        "image": "/images/habitacion-compartida-mixta-6-camas/1.webp",
+        "features": ["kitchenette", "privateBath", "workspace", "wifi"]
+      },
+      {
+        "slug": "habitacion-compartida-mixta-4-camas",
+        "title": "Dortoir Mixte (4 Lits)",
+        "description": "Un espace accueillant et élégant. Ce dortoir dispose de quatre lits loués individuellement. Il dispose d'une salle de bain et d'une cuisine partagées et du Wi-Fi haut débit. Sa fenêtre arrière offre une belle vue sur la ville, créant une ambiance sereine.",
+        "image": "/images/habitacion-compartida-mixta-4-camas/1.webp",
+        "features": ["queenBed", "privateBath", "desk", "fullAccess"]
+      },
+      {
+        "slug": "habitacion-compartida-femenina-4-camas",
+        "title": "Dortoir Féminin (4 Lits)",
+        "description": "Un espace conçu pour les femmes cherchant confort et sécurité. Dispose d'un balcon intérieur et d'un accès direct à la terrasse. Chaque lit est loué individuellement et inclut l'accès à une salle de bain et une cuisine partagées, ainsi que le Wi-Fi haut débit. Parfait pour se reposer et se sentir en sécurité.",
+        "image": "/images/habitacion-compartida-femenina-4-camas/1.webp",
+        "features": ["bunks", "lockers", "sharedBath", "community"]
+      }
+    ]
+  },
+  "wellness": {
+    "title": "Connectez-vous avec Vous et les Autres",
+    "subtitle": "Des équipements uniques qui nourrissent votre bien-être physique, mental et social durant votre séjour.",
+    "meditation": {
+      "alt": "Salle de Méditation",
+      "title": "Salle de Méditation",
+      "description": "Un espace sacré pour la réflexion intérieure, équipé d'éléments naturels et d'une vue inspirante sur Monserrate. Ici, vous pouvez vous reconnecter avec vous-même et trouver la paix que vous cherchez.",
+      "schedule": "Sessions de méditation en groupe : Lundi, Mercredi et Vendredi",
+      "location": "8h00, Bâtiment Las Aguas Inner Experience"
+    },
+    "wordcircle": {
+      "alt": "Cercle de Parole",
+      "title": "Cercle de Parole",
+      "description": "Où la parole unit et le feu illumine. Un refuge circulaire pour le dialogue et la contemplation, nous reconnectant à l'essence du partage de l'instant présent.",
+      "schedule": "Sessions en groupe Mardis et Jeudis",
+      "location": "20h00, Bâtiment Las Aguas Inner Experience"
+    }
+  },
+  "amenities": {
+    "gym": {
+      "title": "Salle de Sport Équipée",
+      "description": "Maintenez votre routine d'exercice avec des équipements modernes et des espaces amples."
+    },
+    "sauna": {
+      "title": "Sauna Relaxant",
+      "description": "Déconnectez et renouvelez votre énergie dans notre espace de relaxation."
+    },
+    "coffee": {
+      "title": "Culture du 'Tinto'",
+      "description": "Notre café accueillant avec les meilleurs grains colombiens et une ambiance locale."
+    },
+    "common": {
+      "title": "Espaces Communs",
+      "description": "Des zones conçues pour connecter, travailler et partager avec d'autres voyageurs."
+    }
+  },
+  "socialAreas": {
+    "title": "Nos Espaces Exclusifs",
+    "subtitle": "Nous avons conçu chaque recoin en pensant à votre bien-être, votre productivité et vos loisirs sans quitter la maison.",
+    "carousel": [
+      {
+        "title": "Terrasse Sky View : L'Horizon à vos Pieds",
+        "description": "Un sanctuaire en hauteur où le coucher de soleil prend vie. Profitez de vues panoramiques inégalées et d'une brise rafraîchissante dans notre lounge en plein air, parfait pour déconnecter du rythme urbain.",
+        "image": "/images/spaces/1.jpg",
+        "location": "Rooftop"
+      },
+      {
+        "title": "Fitness Center Elite",
+        "description": "Redéfinissez votre routine dans une salle de sport fonctionnelle et confortable. Équipé d'éléments d'entraînement fonctionnel, cet espace vous inspire à atteindre votre potentiel physique maximum sans excuses.",
+        "image": "/images/spaces/2.jpg",
+        "location": "Sous-sol"
+      },
+      {
+        "title": "Le Social Hub",
+        "description": "Le cœur vibrant de notre communauté. Un salon sophistiqué au design contemporain, idéal pour des après-midis de lecture, des conversations avec d'autres voyageurs ou simplement pour apprécier le design intérieur.",
+        "image": "/images/spaces/3.jpg",
+        "location": "Sous-sol"
+      },
+      {
+        "title": "Studio de Travail & Coworking",
+        "description": "Élevez votre productivité dans un environnement conçu pour le succès. Avec une connectivité haut débit, un mobilier ergonomique et une ambiance silencieuse, c'est l'extension parfaite de votre bureau à quelques pas de chez vous.",
+        "image": "/images/spaces/4.jpg",
+        "location": "Sous-sol"
+      },
+      {
+        "title": "Sanctuaire de Bien-être & Sauna",
+        "description": "Un refuge thermal pour purifier le corps et l'esprit. Plongez dans une expérience de relaxation profonde, où la chaleur et le silence se combinent pour éliminer le stress et revitaliser vos sens.",
+        "image": "/images/spaces/5.jpg",
+        "location": "Sous-sol"
+      },
+      {
+        "title": "Grill Garden & BBQ Gourmet",
+        "description": "Le cadre parfait pour vos meilleures réceptions. Une zone de grillades premium sous les étoiles, conçue pour créer des souvenirs culinaires inoubliables avec famille et amis dans une ambiance festive et exclusive.",
+        "image": "/images/spaces/6.jpg",
+        "location": "Rooftop"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Expériences qui Transforment",
+    "subtitle": "Découvrez pourquoi des voyageurs du monde entier choisissent Las Aguas pour leur expérience intérieure.",
+    "list": [
+      {
+        "name": "Correcaminos",
+        "country": "Espagne",
+        "text": "Las Aguas a été notre premier arrêt lors d'un voyage en Colombie, et il n'aurait pas pu y avoir de meilleur choix. Nous sommes venus pour nous reposer quelques jours et avons fini par trouver des amis, le personnel de l'auberge. Le tour de Jeicob dans les quartiers populaires a été la meilleure expérience et je la recommande vivement. En plus de lui, Sergio et les autres employés nous ont offert un séjour précieux que nous n'oublierons jamais.",
+        "rating": 5,
+        "image": "images/testimonials/1.jpg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop"
+      },
+      {
+        "name": "Juliana",
+        "country": "Colombie",
+        "text": "L'auberge est un bon endroit pour séjourner, très bien située à La Candelaria avec un accès facile à pied à plusieurs sites touristiques du centre. Ce que nous avons le plus aimé, c'est la gentillesse du personnel, toujours attentif à nos besoins.",
+        "rating": 5,
+        "image": "images/testimonials/2.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop"
+      },
+      {
+        "name": "Hernán",
+        "country": "Mexique",
+        "text": "En tant que nomade numérique, j'ai trouvé l'équilibre parfait entre productivité et bien-être. Le Wi-Fi est excellent, la salle de sport impeccable et la communauté inspirante.",
+        "rating": 5,
+        "image": "images/testimonials/3.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop"
+      }
+    ]
+  },
+  "surroundings": {
+    "title": "Alentours",
+    "subtitle": "Situés au cœur du quartier Las Aguas, vous aurez un accès immédiat au meilleur de Bogotá.",
+    "list": [
+      {
+        "title": "Centre Historique",
+        "description": "À quelques pas des principaux sites historiques de Bogotá.",
+        "image": "/images/alrededores/centro-bogota.png",
+        "distance": "2 min à pied"
+      },
+      {
+        "title": "Monserrate",
+        "description": "Vue privilégiée sur la montagne la plus emblématique de la ville.",
+        "image": "/images/alrededores/monserrate-bogota.jpg",
+        "distance": "15 min en téléphérique"
+      },
+      {
+        "title": "Marché aux Puces",
+        "description": "Trouvez des trésors uniques dans le marché d'antiquités le plus célèbre.",
+        "image": "/images/alrededores/mercado-bogota.jpg",
+        "distance": "5 min à pied"
+      },
+      {
+        "title": "Cafés Locaux",
+        "description": "Découvrez la culture du café dans les meilleurs cafés du quartier.",
+        "image": "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
+        "distance": "1-3 min à pied"
+      }
+    ]
+  },
+  "experiences": {
+    "tagline": "Découvrez la Ville",
+    "title": "Routes et Expériences Locales",
+    "subtitle": "Plongez dans la culture authentique avec nos visites guidées exclusives pour les hôtes.",
+    "list": [
+      {
+        "title": "Tour des Favelas : Vie & Couleur",
+        "description": "Une immersion respectueuse et fascinante au cœur de la communauté. Découvrez l'architecture spontanée, l'art urbain et la chaleur de ses habitants sous un nouvel angle.",
+        "image": "/images/tours/1.jpeg",
+        "duration": "3 Heures"
+      },
+      {
+        "title": "Tour des Belvédères",
+        "description": "Une randonnée scénique qui récompense l'effort par les vues les plus impressionnantes de la ville. Le point parfait où la nature embrasse la ville.",
+        "image": "/images/tours/2.avif",
+        "duration": "4 Heures"
+      },
+      {
+        "title": "Route du Graffiti Urbain",
+        "description": "Explorez un musée à ciel ouvert. Parcourez les peintures murales les plus emblématiques et découvrez les histoires de résistance et d'espoir plasmées sur les murs par des artistes locaux.",
+        "image": "/images/tours/3.jpeg",
+        "duration": "2.5 Heures"
+      },
+      {
+        "title": "Tour Culturel : Racines Vivantes",
+        "description": "Un voyage à travers le temps dans le centre historique. Gastronomie, musique et architecture s'unissent pour vous raconter l'histoire non écrite de notre région.",
+        "image": "/images/tours/4.jpg",
+        "duration": "Journée Complète"
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Votre voyage de transformation vous attend",
+    "subtitle": "Rejoignez notre communauté de voyageurs conscients et découvrez tout ce que Bogotá et votre intérieur ont à vous offrir.",
+    "button1": "Voir les Disponibilités",
+    "button2": "Contacter Maintenant",
+    "location": "Situés au cœur du quartier Las Aguas, Bogotá"
+  },
+  "gallery": {
+    "back": "Retour",
+    "enlargedImageAlt": "Image agrandie"
+  },
+  "footer": {
+    "description": "Plus qu'un simple lieu de séjour, nous sommes une expérience qui connecte les voyageurs conscients avec le cœur de Bogotá et leur propre transformation intérieure.",
+    "contact": {
+      "title": "Contact",
+      "addressLine1": "Bâtiment Las Aguas, Calle 12f #0-19",
+      "addressLine2": "Quartier La Candelaria - Centre Historique"
+    },
+    "links": {
+      "title": "Liens Rapides",
+      "tours": "Tours Locaux"
+    },
+    "copyright": {
+      "madeWith": "Fait avec <1/> pour les voyageurs conscients",
+      "reserved": "© 2025 Las Aguas Inner Experience. Tous droits réservés."
+    }
+  }
+}

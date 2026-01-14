@@ -3,7 +3,7 @@
     "titulo": "Las Aguas Inner Experience",
     "inicio": "Home",
     "areassociales": "Social Areas",
-    "espacios": "Spaces",
+    "espacios": "Accommodations",
     "wellness": "Wellness",
     "testimonios": "Testimonials",
     "reservar_ahora": "Book Now"
@@ -14,7 +14,7 @@
     "subtitle": "Discover a refuge in the heart of Bogotá, designed to connect, explore, and renew your spirit."
   },
   "introduction": {
-    "title": "More than a place to stay",
+    "title": "More than just a place to stay",
     "subtitle": "We are a hub for conscious travelers. Our brand is built on providing an \"Inner Experience\" that connects guests with themselves, with others, and with the soul of Bogotá.",
     "cards": {
       "self": {
@@ -34,7 +34,7 @@
   "features": {
     "kitchenette": "Equipped kitchenette",
     "privateBath": "Private bathroom",
-    "workspace": "Work area",
+    "workspace": "Workspace",
     "wifi": "High-speed Wi-Fi",
     "queenBed": "Queen bed",
     "desk": "Desk",
@@ -66,7 +66,7 @@
       {
         "slug": "estudio-superior",
         "title": "Superior Studio",
-        "description": "Immerse yourself in an experience of rest and well-being in our Superior Studio, a space where elegance combines with tranquility. Its imposing window, spanning the entire back wall, fills the room with natural light and creates a warm, relaxing atmosphere. It has a private bathroom and a fully equipped kitchen with a fridge, microwave, and coffee maker, ideal for long stays or comfort getaways. It also has high-speed Wi-Fi to keep you connected while enjoying serenity and style.",
+        "description": "Immerse yourself in an experience of rest and well-being in our Superior Studio, a space where elegance combines with tranquility. Its imposing window, spanning the entire back wall, floods the room with natural light and creates a warm, relaxing atmosphere. It has a private bathroom and a fully equipped kitchen with a fridge, microwave, and coffee maker, ideal for long stays or comfort getaways. It also has high-speed Wi-Fi to keep you connected while enjoying serenity and style.",
         "image": "/images/estudio-superior/1.webp",
         "features": ["kitchenette", "privateBath", "workspace", "wifi"]
       },
@@ -100,21 +100,21 @@
       },
       {
         "slug": "habitacion-compartida-mixta-6-camas",
-        "title": "6-Bed Mixed Dorm Room",
+        "title": "Mixed Dorm (6 Beds)",
         "description": "A comfortable and functional option for travelers seeking well-being and connection. This shared room has six beds and a balcony facing the front of the building, where you can enjoy the view and the authentic atmosphere of La Candelaria. Each bed is rented individually and includes access to a shared, fully equipped bathroom and kitchen, plus high-speed Wi-Fi. An ideal space to rest, socialize, and live a quiet experience in the historic center of Bogotá.",
         "image": "/images/habitacion-compartida-mixta-6-camas/1.webp",
         "features": ["kitchenette", "privateBath", "workspace", "wifi"]
       },
       {
         "slug": "habitacion-compartida-mixta-4-camas",
-        "title": "4-Bed Mixed Dorm Room",
+        "title": "Mixed Dorm (4 Beds)",
         "description": "A cozy and elegant space designed for travelers who value tranquility and well-being. This shared room has four beds and is rented individually. It has a fully equipped shared bathroom and kitchen, plus high-speed Wi-Fi. Its window towards the back of the building offers a beautiful city view, creating a serene and bright atmosphere ideal for resting, connecting, and enjoying the experience in La Candelaria.",
         "image": "/images/habitacion-compartida-mixta-4-camas/1.webp",
         "features": ["queenBed", "privateBath", "desk", "fullAccess"]
       },
       {
         "slug": "habitacion-compartida-femenina-4-camas",
-        "title": "4-Bed Female Dorm Room",
+        "title": "Female Dorm (4 Beds)",
         "description": "A space designed especially for women seeking comfort, safety, and tranquility during their stay. This room has a cozy and elegant atmosphere, with a balcony towards the interior of the building and direct access to the terrace, ideal for enjoying the view and fresh air. Each bed is rented individually and includes access to a fully equipped shared bathroom and kitchen, plus high-speed Wi-Fi. A perfect place to rest, feel safe, and experience La Candelaria in style.",
         "image": "/images/habitacion-compartida-femenina-4-camas/1.webp",
         "features": ["bunks", "lockers", "sharedBath", "community"]
@@ -128,7 +128,7 @@
       "alt": "Meditation Room",
       "title": "Meditation Room",
       "description": "A sacred space for inner reflection, equipped with natural elements and an inspiring view of Monserrate. Here you can reconnect with yourself and find the peace you seek on your journey.",
-      "schedule": "Group meditation sessions Monday, Wednesday, and Friday",
+      "schedule": "Group meditation sessions Mondays, Wednesdays, and Fridays",
       "location": "8:00 am, Las Aguas Inner Experience Building"
     },
     "wordcircle": {
@@ -142,7 +142,7 @@
   "amenities": {
     "gym": {
       "title": "Equipped Gym",
-      "description": "Maintain your exercise routine with modern equipment and spacious areas."
+      "description": "Maintain your workout routine with modern equipment and spacious areas."
     },
     "sauna": {
       "title": "Relaxing Sauna",
@@ -150,7 +150,7 @@
     },
     "coffee": {
       "title": "Tinto Culture",
-      "description": "Our cozy café with the best Colombian beans and a local atmosphere."
+      "description": "Our cozy café featuring the best Colombian beans and a local atmosphere."
     },
     "common": {
       "title": "Common Spaces",
@@ -169,13 +169,13 @@
       },
       {
         "title": "Elite Fitness Center",
-        "description": "Redefine your routine in a state-of-the-art gym. Equipped with the latest technology and functional training zones, this space inspires you to reach your physical potential with no excuses.",
+        "description": "Redefine your routine in a functional and comfortable gym. Equipped with functional training elements, this space inspires you to reach your maximum physical potential without excuses.",
         "image": "/images/spaces/2.jpg",
         "location": "Basement"
       },
       {
         "title": "The Social Hub",
-        "description": "The vibrant heart of our community. A sophisticated lounge with contemporary design, ideal for reading afternoons, conversations with neighbors, or simply enjoying interior design at its finest.",
+        "description": "The vibrant heart of our community. A sophisticated lounge with contemporary design, ideal for reading afternoons, conversations with other travelers, or simply enjoying interior design at its finest.",
         "image": "/images/spaces/3.jpg",
         "location": "Basement"
       },
@@ -201,7 +201,7 @@
   },
   "testimonials": {
     "title": "Transformative Experiences",
-    "subtitle": "Discover why travelers from all over the world choose Las Aguas for their inner experience.",
+    "subtitle": "Discover why travelers from around the world choose Las Aguas for their inner experience.",
     "list": [
       {
         "name": "Correcaminos",
@@ -213,14 +213,14 @@
       {
         "name": "Juliana",
         "country": "Colombia",
-        "text": "The hostel is a good place to stay, it is very well located in La Candelaria with easy walking access to several tourist sites in the city center. What we liked most was the kindness of the hostel staff, always attentive to our needs.",
+        "text": "The hostel is a good place to stay, it is very well located in La Candelaria with easy walking access to several tourist sites in the city center. What we liked most was the kindness of the staff, always attentive to our needs.",
         "rating": 5,
         "image": "images/testimonials/2.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop"
       },
       {
         "name": "Hernán",
         "country": "Mexico",
-        "text": "As a digital nomad, I found the perfect balance between productivity and well-being. The WiFi is excellent, the gym spotless, and the community inspiring.",
+        "text": "As a digital nomad, I found the perfect balance between productivity and wellness. The WiFi is excellent, the gym spotless, and the community inspiring.",
         "rating": 5,
         "image": "images/testimonials/3.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop"
       }
@@ -228,7 +228,7 @@
   },
   "surroundings": {
     "title": "Surroundings",
-    "subtitle": "Located in the heart of the Las Aguas neighborhood, you'll have immediate access to the best of Bogotá.",
+    "subtitle": "Located in the heart of the Las Aguas neighborhood, you will have immediate access to the best of Bogotá.",
     "list": [
       {
         "title": "Historic Center",
@@ -240,7 +240,7 @@
         "title": "Monserrate",
         "description": "Privileged view of the city's most emblematic mountain.",
         "image": "/images/alrededores/monserrate-bogota.jpg",
-        "distance": "15 min cable car"
+        "distance": "15 min by cable car"
       },
       {
         "title": "Flea Market",
@@ -250,7 +250,7 @@
       },
       {
         "title": "Local Cafés",
-        "description": "Discover the coffee culture in the best cafés in the neighborhood.",
+        "description": "Discover the coffee culture in the neighborhood's best cafés.",
         "image": "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
         "distance": "1-3 min walk"
       }
@@ -264,25 +264,25 @@
       {
         "title": "Favela Tour: Life & Color",
         "description": "A respectful and fascinating immersion into the heart of the community. Discover spontaneous architecture, urban art, and the warmth of its inhabitants from a new perspective.",
-        "image": "/images/spaces/1.jpg",
+        "image": "/images/tours/1.jpeg",
         "duration": "3 Hours"
       },
       {
-        "title": "Celestial Arch Viewpoint",
-        "description": "A scenic hike that rewards effort with the most impressive views of the valley. The perfect spot where nature embraces the city.",
-        "image": "/images/spaces/2.jpg",
+        "title": "Viewpoints Tour",
+        "description": "A scenic hike that rewards effort with the most impressive views of the city. The perfect spot where nature embraces the city.",
+        "image": "/images/tours/2.avif",
         "duration": "4 Hours"
       },
       {
         "title": "Urban Graffiti Route",
         "description": "Explore an open-air museum. Tour iconic murals and learn the stories of resistance and hope depicted on the walls by local artists.",
-        "image": "/images/spaces/3.jpg",
+        "image": "/images/tours/3.jpeg",
         "duration": "2.5 Hours"
       },
       {
         "title": "Cultural Tour: Living Roots",
         "description": "A journey through time in the historic district. Gastronomy, music, and architecture come together to tell you the unwritten history of our region.",
-        "image": "/images/spaces/4.jpg",
+        "image": "/images/tours/4.jpg",
         "duration": "Full Day"
       }
     ]
@@ -290,9 +290,9 @@
   "finalCta": {
     "title": "Your transformation journey awaits",
     "subtitle": "Join our community of conscious travelers and discover everything Bogotá and your inner self have to offer.",
-    "button1": "See Availability",
+    "button1": "Check Availability",
     "button2": "Contact Now",
-    "location": "Located in the heart of the Las Aguas neighborhood, Bogotá"
+    "location": "Located in the heart of Las Aguas neighborhood, Bogotá"
   },
   "gallery": {
     "back": "Back",

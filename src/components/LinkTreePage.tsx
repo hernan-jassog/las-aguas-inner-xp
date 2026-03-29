@@ -3,7 +3,7 @@ import React from 'react';
 const LinkTreePage = () => {
   const links = [
     {
-      title: '🤖 Habla con InnerBot (WhatsApp)',
+      title: '🤖 Habla con un Agente (WhatsApp)',
       url: 'https://wa.me/573112161923', 
       bgColor: 'bg-[#25D366]', 
       textColor: 'text-white',

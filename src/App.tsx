@@ -12,6 +12,7 @@ import GalleryPage from './components/GalleryPage';
 import SocialAreas from './components/SocialAreas';
 import LinkTreePage from './components/LinkTreePage';
 import NewsletterModal from './components/NewsletterModal';
+import FloatingWhatsApp from './components/FloatingWhatsApp';
 
 function App() {
   const [currentView, setCurrentView] = useState<'home' | 'gallery' | 'links'>('home');
@@ -194,6 +195,7 @@ function App() {
   return (
     <div className="min-h-screen bg-warm-white">
       <NewsletterModal />
+      <FloatingWhatsApp />
       <Navigation />
       <HeroSection />
       <Introduction />

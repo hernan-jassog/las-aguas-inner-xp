@@ -10,9 +10,11 @@ import FinalCTA from './components/FinalCTA';
 import Footer from './components/Footer';
 import GalleryPage from './components/GalleryPage';
 import SocialAreas from './components/SocialAreas';
+import LinkTreePage from './components/LinkTreePage';
+import NewsletterModal from './components/NewsletterModal';
 
 function App() {
-  const [currentView, setCurrentView] = useState<'home' | 'gallery'>('home');
+  const [currentView, setCurrentView] = useState<'home' | 'gallery' | 'links'>('home');
   const [galleryData, setGalleryData] = useState<{ title: string; images: string[] }>({
     title: '',
     images: []
@@ -128,7 +130,9 @@ function App() {
   React.useEffect(() => {
     const handleNavigation = (event: PopStateEvent) => {
       const path = window.location.pathname;
-      if (path.startsWith('/galeria/')) {
+      if (path === '/links') {
+        setCurrentView('links');
+      } else if (path.startsWith('/galeria/')) {
         const galleryType = path.replace('/galeria/', '') as keyof typeof galleryImages;
         if (galleryImages[galleryType]) {
           setGalleryData(galleryImages[galleryType]);
@@ -173,6 +177,10 @@ function App() {
     window.history.pushState({}, '', '/');
   };
 
+  if (currentView === 'links') {
+    return <LinkTreePage />;
+  }
+
   if (currentView === 'gallery') {
     return (
       <GalleryPage
@@ -185,6 +193,7 @@ function App() {
 
   return (
     <div className="min-h-screen bg-warm-white">
+      <NewsletterModal />
       <Navigation />
       <HeroSection />
       <Introduction />

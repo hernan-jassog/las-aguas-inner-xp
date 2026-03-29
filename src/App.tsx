@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import Navigation from './components/Navigation';
 import HeroSection from './components/HeroSection';
 import Introduction from './components/Introduction';
@@ -179,16 +180,24 @@ function App() {
   };
 
   if (currentView === 'links') {
-    return <LinkTreePage />;
+    return (
+      <>
+        <LinkTreePage />
+        <Analytics />
+      </>
+    );
   }
 
   if (currentView === 'gallery') {
     return (
-      <GalleryPage
-        title={galleryData.title}
-        images={galleryData.images}
-        onBack={handleBackToHome}
-      />
+      <>
+        <GalleryPage
+          title={galleryData.title}
+          images={galleryData.images}
+          onBack={handleBackToHome}
+        />
+        <Analytics />
+      </>
     );
   }
 
@@ -205,6 +214,7 @@ function App() {
       <Testimonials />
       <FinalCTA />
       <Footer />
+      <Analytics />
     </div>
   );
 }

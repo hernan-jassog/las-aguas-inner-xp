@@ -2,7 +2,7 @@ import React from 'react';
 
 const FloatingWhatsApp = () => {
   // El número de InnerBot y un mensaje predeterminado para romper el hielo
-  const phoneNumber = "573112161923";
+  const phoneNumber = "573222452274";
   const message = "¡Hola! Me gustaría tener más información sobre Las Aguas Inner Experience. 🌿";
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
@@ -28,7 +28,7 @@ const FloatingWhatsApp = () => {
       
       {/* Tooltip chiquito que aparece al pasar el cursor */}
       <span className="absolute right-16 px-3 py-2 bg-gray-900 text-white text-sm font-medium rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none whitespace-nowrap shadow-md">
-        Habla con un Agente 🤖
+        Habla con Inner Bot 🤖
       </span>
     </a>
   );

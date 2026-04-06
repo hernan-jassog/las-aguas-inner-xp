@@ -28,7 +28,7 @@ const FinalCTA = () => {
             {t('finalCta.button1')}
           </a>
           <a 
-            href="https://wa.me/573112161923" 
+            href="https://wa.me/573222452274" 
             target="_blank" 
             rel="noopener noreferrer"
             className="border-2 border-white text-white px-8 py-4 rounded-full font-semibold hover:bg-white hover:text-brand-purple transition-all duration-300 inline-block text-center"
